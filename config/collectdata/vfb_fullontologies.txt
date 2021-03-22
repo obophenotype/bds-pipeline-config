@@ -1,0 +1,6 @@
+http://purl.obolibrary.org/obo/dpo.owl
+http://purl.obolibrary.org/obo/fbbt.owl
+http://purl.obolibrary.org/obo/fbdv.owl
+http://purl.obolibrary.org/obo/fbbt/vfb/vfb_ext.owl
+http://purl.obolibrary.org/obo/ro.owl
+http://purl.obolibrary.org/obo/geno.owl
