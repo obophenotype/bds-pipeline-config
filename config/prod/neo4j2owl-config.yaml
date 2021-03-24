@@ -15,108 +15,35 @@ represent_values_and_annotations_as_json:
 
 neo_node_labelling:
   - classes:
-      - FBbt:00005106
-    label: Neuron
-  - classes:
-      - FBbt:00005124
-    label: Sensory_neuron
-  - classes:
-      - FBbt:00005155
-    label: Sense_organ
-  - classes:
-      - FBbt:00005155
-    label: Nervous_system
-  - classes:
-      - FBbt:00005123
-    label: Motor_neuron
-  - classes:
-      - FBbt:00004101
-    label: Peptidergic_neuron
-  - classes:
-      - FBbt:00005099
-    label: Neuron_projection_bundle
-  - classes:
-      - FBbt:00040005
-    label: Synaptic_neuropil
-  - classes:
-      - FBbt:00040007
-    label: Synaptic_neuropil_domain
-  - classes:
-      - FBbt:00040006
-    label: Synaptic_neuropil_subdomain
-  - classes:
-      - FBbt:00041000
-    label: Synaptic_neuropil_block
-  - classes:
-      - FBbt:00007683
-    label: Clone
-  - classes:
-      - VFBfbbt:10000005
-    label: Cluster
-  - classes:
-      - FBbt:00005146
-    label: Neuroblast
-  - classes:
-      - FBbt:00005149
-    label: GMC
-  - classes:
-      - FBbt:10000000
-    label: Anatomy
-  - classes:
-      - FBbt:00007002
-    label: Cell
-  - classes:
-      - FBbt:00005144
-    label: Glial_cell
-  - classes:
-      - CARO:0030002
-    label: Expression_pattern
-  - classes:
-      - VFBext:0000010
-    label: Split
-  - classes:
-      - VFBext:0000010
-    label: Expression_pattern
-  - classes:
-      - FBbt:00005137
-    label: Ganglion
-  - classes:
-      - FBbt:00007173
-    label: Cholinergic
-  - classes:
-      - FBbt:00100291
-    label: Glutamatergic
-  - classes:
-      - FBbt:00007228
+      - CL:0011005
     label: GABAergic
   - classes:
-      - FBbt:00007364
-    label: Octopaminergic
+      - CL:0000679
+    label: Glutamatergic
   - classes:
-      - FBbt:00005131
-    label: Dopaminergic
+      - CL:0002453
+    label: OPC
   - classes:
-      - FBbt:00005133
-    label: Serotonergic
+      - CL:0000127
+    label: Astrocyte
   - classes:
-      - VFBext:0000004
-    label: Expression_pattern_fragment
+      - CL:0000128
+    label: Oligodendrocyte
   - classes:
-      - FBbt:00005140
-    label: Neuromere
+      - CL:0000115
+    label: Endothelial
   - classes:
-      - FBbt:00005074
-    label: Muscle
-  - label: Nervous_system
-    classes:
-      - RO:0002131 some FBbt:00005093
-      - FBbt:00005155
-  - label: Larva
-    classes:
-      - RO:0002131 some FBbt:00001727
-  - label: Adult
-    classes: 
-      - RO:0002131 some FBbt:00003004
+      - CL:0000359
+    label: SMC
+  - classes:
+      - CL:0000669
+    label: Pericyte
+  - classes:
+      - CL:0000129
+    label: Microglial
+ #Add Meis2 and VLMC once available
+  
+
 curie_map:
   GITHUB: https://github.com/
   GITHUBH: http://github.com/
