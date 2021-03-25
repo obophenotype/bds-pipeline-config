@@ -1,1 +1,1 @@
-https://raw.githubusercontent.com/obophenotype/brain_data_standards_ontologies/ec_individuals/bdscratch-relax.owl
+https://raw.githubusercontent.com/obophenotype/brain_data_standards_ontologies/ec_individuals/bdscratch-full.owl
