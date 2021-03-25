@@ -47,25 +47,25 @@ neo_node_labelling:
     label: Primary Motor Cortex
   - classes:
       - RO:0002100 some UBERON:0000956
-     label: Cerebral Cortex
+    label: Cerebral Cortex
   - classes:
       - RO:0002292 some PR:000032148
-     label: Lamp5
+    label: Lamp5
   - classes:
       - RO:0002292 some PR:000017299
-     label: VIP
+    label: VIP
   - classes:
       - RO:0002292 some PR:000015325
-     label: SNCG
+    label: SNCG
   - classes:
       - RO:0002292 some PR:000013502
-     label: PVALB
+    label: PVALB
   - classes:
       - RO:0002292 some PR:000015665
-     label: SST
+    label: SST
   - classes:
       - RO:0002162 some NCBITaxon:10090
-     label: Mus musculus
+    label: Mus musculus
   - classes:
       - CL:4023013
     label: CT projecting glutamatergic
