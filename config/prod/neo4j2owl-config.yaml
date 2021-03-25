@@ -41,46 +41,6 @@ neo_node_labelling:
   - classes:
       - CL:0000129
     label: Microglial
- #Add Meis2 and VLMC once available
-  - classes:
-      - RO:0002100 some UBERON:0001384
-    label: Primary Motor Cortex
-  - classes:
-      - RO:0002100 some UBERON:0000956
-    label: Cerebral Cortex
-  - classes:
-      - RO:0002292 some PR:000032148
-    label: Lamp5
-  - classes:
-      - RO:0002292 some PR:000017299
-    label: VIP
-  - classes:
-      - RO:0002292 some PR:000015325
-    label: SNCG
-  - classes:
-      - RO:0002292 some PR:000013502
-    label: PVALB
-  - classes:
-      - RO:0002292 some PR:000015665
-    label: SST
-  - classes:
-      - RO:0002162 some NCBITaxon:10090
-    label: Mus musculus
-  - classes:
-      - CL:4023013
-    label: CT projecting glutamatergic
-  - classes:
-      - CL:4023009
-    label: ET projecting glutamatergic
-  - classes:
-      - CL:4023008
-    label: IT projecting glutamatergic
-  - classes:
-      - CL:4023012
-    label: NP projecting glutamatergic
-  - classes:
-      - CL:4023038
-    label: L6b projecting glutamatergic
 
 curie_map:
   GITHUB: https://github.com/
