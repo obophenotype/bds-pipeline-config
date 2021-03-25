@@ -1,0 +1,19 @@
+{
+  "statements" : [ {
+    "statement" : "CREATE INDEX ON :Individual(short_form)"
+  } , {
+    "statement" : "CREATE INDEX ON :Class(short_form)"
+  }  , {
+    "statement" : "CREATE INDEX ON :Entity(short_form)"
+  }  , {
+    "statement" : "CREATE INDEX ON :Site(short_form)"
+  }  , {
+    "statement" : "CREATE INDEX ON :pub(short_form)"
+  }  , {
+    "statement" : "CREATE INDEX ON :Template(short_form)"
+  }  , {
+    "statement" : "CREATE INDEX ON :License(short_form)"
+  }   , {
+    "statement" : "CREATE INDEX ON :DataSet(short_form)"
+  } ]
+}
