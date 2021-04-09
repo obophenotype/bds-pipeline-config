@@ -77,10 +77,6 @@ neo_node_labelling:
       - BDSHELP:exemplar_of some SO:0000704
     label: Gene
   - classes:
-      - SO:0000704
-      - BDSHELP:exemplar_of some SO:0000704
-    label: Gene
-  - classes:
       - BDSHELP:Cluster
       - BDSHELP:exemplar_of some BDSHELP:Cluster
     label: Cluster
