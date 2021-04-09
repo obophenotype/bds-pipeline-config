@@ -68,42 +68,55 @@ neo_node_labelling:
       - CL:0000129
       - BDSHELP:exemplar_of some CL:0000129
     label: Microglial
+  - classes:
+      - UBERON:0002616
+      - BDSHELP:exemplar_of some UBERON:0002616
+    label: Brain_Region
+  - classes:
+      - SO:0000704
+      - BDSHELP:exemplar_of some SO:0000704
+    label: Gene
+  - classes:
+      - SO:0000704
+      - BDSHELP:exemplar_of some SO:0000704
+    label: Gene
+  - classes:
+      - BDSHELP:Cluster
+      - BDSHELP:exemplar_of some BDSHELP:Cluster
+    label: Cluster
+  - classes:
+      - OBI:0100026
+      - BDSHELP:exemplar_of some OBI:0100026
+    label: Organism
+    
 
 curie_map:
   GITHUB: https://github.com/
   GITHUBH: http://github.com/
-  VFBfbbt: http://purl.obolibrary.org/obo/fbbt/vfb/VFB_
-  VFBext: http://purl.obolibrary.org/obo/fbbt/vfb/VFBext_
-  vfbp: http://purl.obolibrary.org/obo/fbbt/vfb#
-  VFBO: http://www.virtualflybrain.org/owl/
-  FBR: http://flybase.org/reports/
-  oio: http://www.geneontology.org/formats/oboInOwl#
   PMID: http://www.ncbi.nlm.nih.gov/pubmed/
-  VFBc: http://virtualflybrain.org/reports/VFBc_
-  VFBexp: http://virtualflybrain.org/reports/VFBexp_
-  VFB: http://virtualflybrain.org/reports/VFB_
-  VFBi: http://virtualflybrain.org/reports/VFBi_
-  VFBd: http://virtualflybrain.org/reports/
-  oio: http://www.geneontology.org/formats/oboInOwl#
-  FALDO: http://biohackathon.org/resource/faldo#
-  dce: http://purl.org/dc/elements/1.1/
-  dcterms: http://purl.org/dc/terms/
-  oban: http://purl.org/oban
-  VFB_DATA: http://virtualflybrain.org/data/
-  VFB_LICENSE: http://virtualflybrain.org/licenses/
-  VFB_API: http://virtualflybrain.org/apis/
-  VFB_SITE: http://virtualflybrain.org/site/
   orcid: https://orcid.org/
   doi: https://doi.org/
-  foaf: http://xmlns.com/foaf/0.1/
   rdfs: http://www.w3.org/2000/01/rdf-schema#
   ncbigene: http://www.ncbi.nlm.nih.gov/gene/
   cc: http://creativecommons.org/ns#
-  fbbt_rel: http://purl.obolibrary.org/obo/fbbt#
   pato_rel: http://purl.obolibrary.org/obo/pato#
   so_rel: http://purl.obolibrary.org/obo/so#
   ro_rel: http://www.obofoundry.org/ro/ro.owl#
   owl: http://www.w3.org/2002/07/owl#
+  BDSHELP: http://www.semanticweb.org/brain_data_standards/helper.owl#
+  AllenDend: http://www.semanticweb.org/brain_data_standards/AllenDend_
+  skos: http://www.w3.org/2004/02/skos/core#
+  ensembl: http://identifiers.org/ensembl/
+  RO: http://purl.obolibrary.org/obo/RO_
+  UBERON: http://purl.obolibrary.org/obo/UBERON_
+  CL: http://purl.obolibrary.org/obo/CL_
+  AllenDendClass: http://www.semanticweb.org/brain_data_standards/AllenDendClass_
+  n2o: http://n2o.neo/custom/
+  ILX: http://uri.interlex.org/base/ilx_
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  PR: http://purl.obolibrary.org/obo/PR_
+  SO: http://purl.obolibrary.org/obo/SO_
+  OBI: http://purl.obolibrary.org/obo/OBI_
 filters:
   solr: 
     exclusion:
