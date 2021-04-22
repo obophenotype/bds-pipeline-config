@@ -69,6 +69,14 @@ neo_node_labelling:
       - BDSHELP:exemplar_of some CL:0000129
     label: Microglial
   - classes:
+      - CL:4023051
+      - BDSHELP:exemplar_of some CL:0000129
+    label: VLMC
+  - classes:
+      - CL:4023065
+      - BDSHELP:exemplar_of some CL:4023065
+    label: Meis2
+  - classes:
       - UBERON:0002616
       - BDSHELP:exemplar_of some UBERON:0002616
     label: Brain_Region
