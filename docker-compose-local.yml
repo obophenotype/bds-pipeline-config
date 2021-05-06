@@ -65,7 +65,7 @@ services:
       - JVM_PARAMS=-Xms1G -Xmx5G
       - RDF4J_DATA=/data
     ports:
-      - 8080:8080
+      - 8181:8080
   vfb-prod:
     image: matentzn/vfb-prod:latest
     build:
