@@ -15,6 +15,9 @@ represent_values_and_annotations_as_json:
 
 neo_node_labelling:
   - classes:
+      - UBERON:0002616
+    label: Brain_region
+  - classes:
       - CL:0011005
     label: GABAergic
   - classes:
@@ -44,10 +47,10 @@ neo_node_labelling:
  #Add Meis2 and VLMC once available
   - classes: 
       - RO:0002100 some UBERON:0001384
-    label: Primary Motor Cortex
+    label: Primary_Motor_Cortex
   - classes:
       - RO:0002100 some UBERON:0000956
-    label: Cerebral Cortex
+    label: Cerebral_Cortex
   - classes:
       - RO:0002292 some PR:000032148
     label: Lamp5
@@ -68,7 +71,7 @@ neo_node_labelling:
     label: Mus musculus
   - classes:
       - CL:4023013
-    label: CT projecting glutamatergic
+    label: CT_projecting glutamatergic
   - classes:
       - CL:4023009
     label: ET projecting glutamatergic
