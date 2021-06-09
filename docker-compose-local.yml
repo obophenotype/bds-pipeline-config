@@ -65,7 +65,7 @@ services:
       - JVM_PARAMS=-Xms1G -Xmx5G
       - RDF4J_DATA=/data
     ports:
-      - 8080:8080
+      - 8181:8080
   vfb-prod:
     image: matentzn/vfb-prod:latest
     build:
@@ -78,7 +78,7 @@ services:
       - NEO4J_dbms_memory_heap_initial__size=1G
     ports:
       - 7473:7474
-      - 7686:7687
+      - 7686:7686
     volumes:
       - vfb_data:/input
     # networks:
