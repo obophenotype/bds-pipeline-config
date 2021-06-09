@@ -74,7 +74,31 @@ neo_node_labelling:
       - OBI:0100026
       - BDSHELP:exemplar_of some OBI:0100026
     label: Organism
-
+##Morphological subclasses##
+  - classes:
+      - RO:0000053 some PATO:0070026
+    label: Multipolar Neuron Morphology
+  - classes:
+      - RO:0000053 some PATO:0070015
+    label: Pyramidal Morphology
+  - classes:
+      - RO:0000053 some PATO:0070007
+    label: Martinotti Morphology
+  - classes:
+      - RO:0000053 some PATO:0070002
+    label: Basket Cell Morphology
+  - classes:
+      - RO:0000053 some PATO:0070001
+    label: Neurogliaform Morphology
+  - classes:
+      - RO:0000053 some PATO:0070011
+    label: Chandelier Morphology
+  - classes:
+      - RO:0000053 some PATO:0070012
+    label: Bitufted Cell Morphology
+  - classes:
+      - RO:0000053 some PATO:0070006
+    label: Bipolar Morphology
 
 curie_map:
   GITHUB: https://github.com/
