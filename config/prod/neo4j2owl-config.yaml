@@ -74,6 +74,14 @@ neo_node_labelling:
       - OBI:0100026
       - BDSHELP:exemplar_of some OBI:0100026
     label: Organism
+  - classes:
+      - PATO:0010006
+      - BDSHELP:exemplar_of some PATO:0010006
+    label: cell morphology
+  - classes:
+      - PATO:0070033
+      - BDSHELP:exemplar_of some PATO:0070033
+    label: neuron projection quality
 ##Morphological subclasses##
   - classes:
       - RO:0000053 some PATO:0070026
