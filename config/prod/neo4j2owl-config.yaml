@@ -84,29 +84,78 @@ neo_node_labelling:
     label: neuron projection quality
 ##Morphological subclasses##
   - classes:
-      - RO:0000053 some PATO:0070026
-    label: Multipolar Neuron Morphology
+      - CL:0000104
+      - BDSHELP:exemplar_of some CL:0000104
+    label: Multipolar neuron 
   - classes:
-      - RO:0000053 some PATO:0070015
-    label: Pyramidal Morphology
+      - CL:0000598
+      - BDSHELP:exemplar_of some CL:0000598
+    label: Pyramidal neuron 
   - classes:
-      - RO:0000053 some PATO:0070007
-    label: Martinotti Morphology
+      - CL:4023066
+      - BDSHELP:exemplar_of some CL:4023066
+    label: Horizontal pyramidal neuron 
   - classes:
-      - RO:0000053 some PATO:0070002
-    label: Basket Cell Morphology
+      - CL:4023092
+      - BDSHELP:exemplar_of some CL:4023092
+    label: Inverted pyramidal neuron   
   - classes:
-      - RO:0000053 some PATO:0070001
-    label: Neurogliaform Morphology
+      - CL:4023093
+      - BDSHELP:exemplar_of some CL:4023093
+    label: Stellate pyramidal neuron 
   - classes:
-      - RO:0000053 some PATO:0070011
-    label: Chandelier Morphology
+      - CL:4023094
+      - BDSHELP:exemplar_of some CL:4023094
+    label: Tufted pyramidal neuron 
   - classes:
-      - RO:0000053 some PATO:0070012
-    label: Bitufted Cell Morphology
+      - CL:4023095
+      - BDSHELP:exemplar_of some CL:4023095
+    label: Untufted pyramidal neuron 
   - classes:
-      - RO:0000053 some PATO:0070006
-    label: Bipolar Morphology
+      - CL:4023076
+      - BDSHELP:exemplar_of some CL:4023076
+    label: Martinotti neuron   
+  - classes:
+      - CL:4023087
+      - BDSHELP:exemplar_of some CL:4023087
+    label: Fan Martinotti neuron  
+  - classes:
+      - CL:4023086
+      - BDSHELP:exemplar_of some CL:4023086
+    label: T-shaped Martinotti neuron  
+  - classes:
+      - CL:0000118
+      - BDSHELP:exemplar_of some CL:0000118
+    label: Basket cell  
+  - classes:
+      - CL:4023088
+      - BDSHELP:exemplar_of some CL:4023088
+    label: Large basket cell 
+  - classes:
+      - CL:4023090
+      - BDSHELP:exemplar_of some CL:4023090
+    label: Small basket cell 
+  - classes:
+      - CL:4023089
+      - BDSHELP:exemplar_of some CL:4023089
+    label: Nest basket cell 
+  - classes:
+      - CL:0000693
+      - BDSHELP:exemplar_of some CL:0000693
+    label: Neurogliaform cell
+  - classes:
+      - CL:4023083
+      - BDSHELP:exemplar_of some CL:4023083
+    label: Chandelier cell
+  - classes:
+      - CL:4023077
+      - BDSHELP:exemplar_of some CL:4023077
+    label: Bitufted neuron
+  - classes:
+      - CL:0000103
+      - BDSHELP:exemplar_of some CL:0000103
+    label: Bipolar neuron
+
 
 curie_map:
   GITHUB: https://github.com/
