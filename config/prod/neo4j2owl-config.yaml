@@ -155,8 +155,23 @@ neo_node_labelling:
       - CL:0000103
       - BDSHELP:exemplar_of some CL:0000103
     label: Bipolar neuron
-
-
+##Projection subclasses##
+  - classes:
+      - RO:0000053 some PATO:0070028
+    label: Extratelencephalic projecting
+  - classes:
+      - RO:0000053 some PATO:0070034
+    label: Intratelencephalic projecting
+  - classes:
+      - RO:0000053 some PATO:0070029
+    label: Corticothalamic projecting
+  - classes:
+      - RO:0000053 some PATO:0070030
+    label: Near projecting
+  - classes:
+      - RO:0000053 some PATO:0070031
+    label: Corticomedulla projecting
+    
 curie_map:
   GITHUB: https://github.com/
   GITHUBH: http://github.com/
