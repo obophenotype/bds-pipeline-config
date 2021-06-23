@@ -74,31 +74,103 @@ neo_node_labelling:
       - OBI:0100026
       - BDSHELP:exemplar_of some OBI:0100026
     label: Organism
+  - classes:
+      - PATO:0010006
+      - BDSHELP:exemplar_of some PATO:0010006
+    label: morphology
+  - classes:
+      - PATO:0070033
+      - BDSHELP:exemplar_of some PATO:0070033
+    label: projection
 ##Morphological subclasses##
   - classes:
-      - RO:0000053 some PATO:0070026
-    label: Multipolar Neuron Morphology
+      - CL:0000104
+      - BDSHELP:exemplar_of some CL:0000104
+    label: Multipolar
   - classes:
-      - RO:0000053 some PATO:0070015
-    label: Pyramidal Morphology
+      - CL:0000598
+      - BDSHELP:exemplar_of some CL:0000598
+    label: Pyramidal
   - classes:
-      - RO:0000053 some PATO:0070007
-    label: Martinotti Morphology
+      - CL:4023066
+      - BDSHELP:exemplar_of some CL:4023066
+    label: Horizontal_pyramidal
   - classes:
-      - RO:0000053 some PATO:0070002
-    label: Basket Cell Morphology
+      - CL:4023092
+      - BDSHELP:exemplar_of some CL:4023092
+    label: Inverted_pyramidal
   - classes:
-      - RO:0000053 some PATO:0070001
-    label: Neurogliaform Morphology
+      - CL:4023093
+      - BDSHELP:exemplar_of some CL:4023093
+    label: Stellate_pyramidal
   - classes:
-      - RO:0000053 some PATO:0070011
-    label: Chandelier Morphology
+      - CL:4023094
+      - BDSHELP:exemplar_of some CL:4023094
+    label: Tufted_pyramidal
   - classes:
-      - RO:0000053 some PATO:0070012
-    label: Bitufted Cell Morphology
+      - CL:4023095
+      - BDSHELP:exemplar_of some CL:4023095
+    label: Untufted_pyramidal
   - classes:
-      - RO:0000053 some PATO:0070006
-    label: Bipolar Morphology
+      - CL:4023076
+      - BDSHELP:exemplar_of some CL:4023076
+    label: Martinotti
+  - classes:
+      - CL:4023087
+      - BDSHELP:exemplar_of some CL:4023087
+    label: Fan_Martinotti
+  - classes:
+      - CL:4023086
+      - BDSHELP:exemplar_of some CL:4023086
+    label: T_Martinotti
+  - classes:
+      - CL:0000118
+      - BDSHELP:exemplar_of some CL:0000118
+    label: Basket
+  - classes:
+      - CL:4023088
+      - BDSHELP:exemplar_of some CL:4023088
+    label: Large_basket
+  - classes:
+      - CL:4023090
+      - BDSHELP:exemplar_of some CL:4023090
+    label: Small_basket
+  - classes:
+      - CL:4023089
+      - BDSHELP:exemplar_of some CL:4023089
+    label: Nest_basket
+  - classes:
+      - CL:0000693
+      - BDSHELP:exemplar_of some CL:0000693
+    label: Neurogliaform
+  - classes:
+      - CL:4023083
+      - BDSHELP:exemplar_of some CL:4023083
+    label: Chandelier
+  - classes:
+      - CL:4023077
+      - BDSHELP:exemplar_of some CL:4023077
+    label: Bitufted
+  - classes:
+      - CL:0000103
+      - BDSHELP:exemplar_of some CL:0000103
+    label: Bipolar
+##Projection subclasses##
+  - classes:
+      - RO:0000053 some PATO:0070028
+    label: Extratelencephalic
+  - classes:
+      - RO:0000053 some PATO:0070034
+    label: Intratelencephalic
+  - classes:
+      - RO:0000053 some PATO:0070029
+    label: Corticothalamic
+  - classes:
+      - RO:0000053 some PATO:0070030
+    label: Near_projecting
+  - classes:
+      - RO:0000053 some PATO:0070031
+    label: Corticomedulla
 
 curie_map:
   GITHUB: https://github.com/
