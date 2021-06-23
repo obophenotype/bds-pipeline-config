@@ -77,100 +77,100 @@ neo_node_labelling:
   - classes:
       - PATO:0010006
       - BDSHELP:exemplar_of some PATO:0010006
-    label: cell morphology
+    label: morphology
   - classes:
       - PATO:0070033
       - BDSHELP:exemplar_of some PATO:0070033
-    label: neuron projection quality
+    label: projection
 ##Morphological subclasses##
   - classes:
       - CL:0000104
       - BDSHELP:exemplar_of some CL:0000104
-    label: Multipolar neuron 
+    label: Multipolar 
   - classes:
       - CL:0000598
       - BDSHELP:exemplar_of some CL:0000598
-    label: Pyramidal neuron 
+    label: Pyramidal 
   - classes:
       - CL:4023066
       - BDSHELP:exemplar_of some CL:4023066
-    label: Horizontal pyramidal neuron 
+    label: Horizontal_pyramidal
   - classes:
       - CL:4023092
       - BDSHELP:exemplar_of some CL:4023092
-    label: Inverted pyramidal neuron   
+    label: Inverted_pyramidal  
   - classes:
       - CL:4023093
       - BDSHELP:exemplar_of some CL:4023093
-    label: Stellate pyramidal neuron 
+    label: Stellate_pyramidal 
   - classes:
       - CL:4023094
       - BDSHELP:exemplar_of some CL:4023094
-    label: Tufted pyramidal neuron 
+    label: Tufted_pyramidal 
   - classes:
       - CL:4023095
       - BDSHELP:exemplar_of some CL:4023095
-    label: Untufted pyramidal neuron 
+    label: Untufted_pyramidal 
   - classes:
       - CL:4023076
       - BDSHELP:exemplar_of some CL:4023076
-    label: Martinotti neuron   
+    label: Martinotti   
   - classes:
       - CL:4023087
       - BDSHELP:exemplar_of some CL:4023087
-    label: Fan Martinotti neuron  
+    label: Fan_Martinotti
   - classes:
       - CL:4023086
       - BDSHELP:exemplar_of some CL:4023086
-    label: T-shaped Martinotti neuron  
+    label: T_Martinotti
   - classes:
       - CL:0000118
       - BDSHELP:exemplar_of some CL:0000118
-    label: Basket cell  
+    label: Basket
   - classes:
       - CL:4023088
       - BDSHELP:exemplar_of some CL:4023088
-    label: Large basket cell 
+    label: Large_basket 
   - classes:
       - CL:4023090
       - BDSHELP:exemplar_of some CL:4023090
-    label: Small basket cell 
+    label: Small_basket
   - classes:
       - CL:4023089
       - BDSHELP:exemplar_of some CL:4023089
-    label: Nest basket cell 
+    label: Nest_basket
   - classes:
       - CL:0000693
       - BDSHELP:exemplar_of some CL:0000693
-    label: Neurogliaform cell
+    label: Neurogliaform 
   - classes:
       - CL:4023083
       - BDSHELP:exemplar_of some CL:4023083
-    label: Chandelier cell
+    label: Chandelier 
   - classes:
       - CL:4023077
       - BDSHELP:exemplar_of some CL:4023077
-    label: Bitufted neuron
+    label: Bitufted 
   - classes:
       - CL:0000103
       - BDSHELP:exemplar_of some CL:0000103
-    label: Bipolar neuron
+    label: Bipolar 
 ##Projection subclasses##
   - classes:
       - RO:0000053 some PATO:0070028
-    label: Extratelencephalic projecting
+    label: Extratelencephalic 
   - classes:
       - RO:0000053 some PATO:0070034
-    label: Intratelencephalic projecting
+    label: Intratelencephalic 
   - classes:
       - RO:0000053 some PATO:0070029
-    label: Corticothalamic projecting
+    label: Corticothalamic 
   - classes:
       - RO:0000053 some PATO:0070030
-    label: Near projecting
+    label: Near_projecting
   - classes:
       - RO:0000053 some PATO:0070031
-    label: Corticomedulla projecting
+    label: Corticomedulla 
     
 curie_map:
   GITHUB: https://github.com/
