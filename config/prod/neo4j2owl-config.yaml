@@ -84,12 +84,10 @@ neo_node_labelling:
     label: projection
 ##Morphological subclasses##
   - classes:
-      - CL:0000104
-      - BDSHELP:exemplar_of some CL:0000104
-    label: Multipolar 
+      - RO:0000053 some PATO:0070026
+    label: Multipolar
   - classes:
-      - CL:0000598
-      - BDSHELP:exemplar_of some CL:0000598
+      - RO:0000053 some PATO:0070015
     label: Pyramidal 
 #  - classes:
 #      - CL:4023066
@@ -108,20 +106,16 @@ neo_node_labelling:
 #      - BDSHELP:exemplar_of some CL:4023094
 #    label: Tufted_pyramidal 
   - classes:
-      - CL:4023095
-      - BDSHELP:exemplar_of some CL:4023095
+      - RO:0000053 some PATO:0070019
     label: Untufted_pyramidal 
   - classes:
-      - CL:4023076
-      - BDSHELP:exemplar_of some CL:4023076
+      - RO:0000053 some PATO:0070007
     label: Martinotti   
   - classes:
-      - CL:4023087
-      - BDSHELP:exemplar_of some CL:4023087
+      - RO:0000053 some PATO:0070009
     label: Fan_Martinotti
   - classes:
-      - CL:4023086
-      - BDSHELP:exemplar_of some CL:4023086
+      - RO:0000053 some PATO:0070008
     label: T_Martinotti
 #  - classes:
 #      - CL:0000118
@@ -140,20 +134,17 @@ neo_node_labelling:
 #      - BDSHELP:exemplar_of some CL:4023089
 #    label: Nest_basket
   - classes:
-      - CL:0000693
-      - BDSHELP:exemplar_of some CL:0000693
+      - RO:0000053 some PATO:0070001
     label: Neurogliaform 
   - classes:
-      - CL:4023083
-      - BDSHELP:exemplar_of some CL:4023083
+      - RO:0000053 some PATO:0070011
     label: Chandelier 
 #  - classes:
 #      - CL:4023077
 #      - BDSHELP:exemplar_of some CL:4023077
 #    label: Bitufted 
   - classes:
-      - CL:0000103
-      - BDSHELP:exemplar_of some CL:0000103
+      - RO:0000053 some PATO:0070006
     label: Bipolar 
 ##Projection subclasses##
   - classes:
