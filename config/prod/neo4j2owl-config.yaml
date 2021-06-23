@@ -91,22 +91,22 @@ neo_node_labelling:
       - CL:0000598
       - BDSHELP:exemplar_of some CL:0000598
     label: Pyramidal
-  - classes:
-      - CL:4023066
-      - BDSHELP:exemplar_of some CL:4023066
-    label: Horizontal_pyramidal
-  - classes:
-      - CL:4023092
-      - BDSHELP:exemplar_of some CL:4023092
-    label: Inverted_pyramidal
-  - classes:
-      - CL:4023093
-      - BDSHELP:exemplar_of some CL:4023093
-    label: Stellate_pyramidal
-  - classes:
-      - CL:4023094
-      - BDSHELP:exemplar_of some CL:4023094
-    label: Tufted_pyramidal
+#  - classes:
+#      - CL:4023066
+#      - BDSHELP:exemplar_of some CL:4023066
+#    label: Horizontal_pyramidal
+#  - classes:
+#      - CL:4023092
+#      - BDSHELP:exemplar_of some CL:4023092
+#    label: Inverted_pyramidal
+#  - classes:
+#      - CL:4023093
+#      - BDSHELP:exemplar_of some CL:4023093
+#    label: Stellate_pyramidal
+#  - classes:
+#      - CL:4023094
+#      - BDSHELP:exemplar_of some CL:4023094
+#    label: Tufted_pyramidal
   - classes:
       - CL:4023095
       - BDSHELP:exemplar_of some CL:4023095
@@ -123,22 +123,22 @@ neo_node_labelling:
       - CL:4023086
       - BDSHELP:exemplar_of some CL:4023086
     label: T_Martinotti
-  - classes:
-      - CL:0000118
-      - BDSHELP:exemplar_of some CL:0000118
-    label: Basket
-  - classes:
-      - CL:4023088
-      - BDSHELP:exemplar_of some CL:4023088
-    label: Large_basket
-  - classes:
-      - CL:4023090
-      - BDSHELP:exemplar_of some CL:4023090
-    label: Small_basket
-  - classes:
-      - CL:4023089
-      - BDSHELP:exemplar_of some CL:4023089
-    label: Nest_basket
+#  - classes:
+#      - CL:0000118
+#      - BDSHELP:exemplar_of some CL:0000118
+#    label: Basket
+#  - classes:
+#      - CL:4023088
+#      - BDSHELP:exemplar_of some CL:4023088
+#    label: Large_basket
+#  - classes:
+#      - CL:4023090
+#      - BDSHELP:exemplar_of some CL:4023090
+#    label: Small_basket
+#  - classes:
+#      - CL:4023089
+#      - BDSHELP:exemplar_of some CL:4023089
+#    label: Nest_basket
   - classes:
       - CL:0000693
       - BDSHELP:exemplar_of some CL:0000693
@@ -147,10 +147,10 @@ neo_node_labelling:
       - CL:4023083
       - BDSHELP:exemplar_of some CL:4023083
     label: Chandelier
-  - classes:
-      - CL:4023077
-      - BDSHELP:exemplar_of some CL:4023077
-    label: Bitufted
+#  - classes:
+#      - CL:4023077
+#      - BDSHELP:exemplar_of some CL:4023077
+#    label: Bitufted
   - classes:
       - CL:0000103
       - BDSHELP:exemplar_of some CL:0000103
