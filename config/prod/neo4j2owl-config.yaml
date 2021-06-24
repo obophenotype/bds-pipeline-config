@@ -162,6 +162,16 @@ neo_node_labelling:
   - classes:
       - RO:0000053 some PATO:0070031
     label: Corticomedulla 
+##specific badges##
+  - classes:
+      - RO:0002162 some NCBITaxon:10090
+    label: Mus_musculus
+  - classes:
+      - RO:0002100 some UBERON:0000956
+    label: Cerebral_cortex
+  - classes:
+      - RO:0002100 some UBERON:0001384
+    label: Primary_motor_cortex
     
 curie_map:
   GITHUB: https://github.com/
