@@ -10,11 +10,16 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
-    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/bdscratch/bdscratch-full.owl"/>
-    
+     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/bdscratch/bdscratch-full.owl">
+         <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/bdscratch/releases/2021-04-29/bdscratch-full.owl"/>
+         <dc:title>Brain Data Standards Filtered Ontology</dc:title>
+         <terms:license rdf:resource="https://creativecommons.org/licenses/unspecified"/>
+         <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-06-28</owl:versionInfo>
+     </owl:Ontology>
 
 
-    <!-- 
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Annotation properties
@@ -22,118 +27,118 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000116 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116"/>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412"/>
-    
+
 
 
     <!-- http://purl.org/dc/elements/1.1/creator -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
-    
+
 
 
     <!-- http://purl.org/dc/elements/1.1/date -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
-    
+
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#created_by -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#created_by"/>
-    
+
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#creation_date -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
-    
+
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasAlternativeId -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId"/>
-    
+
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
-    
+
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-    
+
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-    
+
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-    
+
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-    
+
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    
+
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasSynonymType -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasSynonymType"/>
-    
+
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#id -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
-    
+
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
-    
+
 
 
     <!-- http://www.w3.org/2004/02/skos/core#prefLabel -->
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel"/>
-    
 
 
-    <!-- 
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Classes
@@ -141,7 +146,7 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000003 -->
@@ -161,7 +166,7 @@
         <owl:annotatedTarget>A cell that is found in a natural setting, which includes multicellular organism cells &apos;in vivo&apos; (i.e. part of an organism), and unicellular organisms &apos;in environment&apos; (i.e. part of a natural environment).</owl:annotatedTarget>
         <oboInOwl:hasDbXref>CARO:mah</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000005 -->
@@ -178,7 +183,7 @@
         <owl:annotatedTarget>Any fibroblast that is deriived from the neural crest.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>https://orcid.org/0000-0001-5208-3432</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000008 -->
@@ -196,7 +201,7 @@
         <oboInOwl:hasDbXref>ZFA:0007091</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>https://orcid.org/0000-0001-5208-3432</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000027 -->
@@ -213,7 +218,7 @@
         <owl:annotatedTarget>A smooth muscle cell derived from the neural crest.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>https://orcid.org/0000-0001-5208-3432</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000029 -->
@@ -223,7 +228,7 @@
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
         <rdfs:label>neuron neural crest derived</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000030 -->
@@ -234,7 +239,7 @@
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
         <rdfs:label>glioblast</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000031 -->
@@ -257,7 +262,7 @@
         <oboInOwl:hasDbXref>GOC:NV</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://en.wikipedia.org/wiki/Neuroblast</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000034 -->
@@ -277,7 +282,7 @@
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:A11.872</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000035 -->
@@ -297,7 +302,7 @@
         <owl:annotatedTarget>A stem cell that self-renews as well as give rise to a single mature cell type.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000037 -->
@@ -330,7 +335,7 @@
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:19022770</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://en.wikipedia.org/wiki/Hematopoietic_stem_cell</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000040 -->
@@ -358,7 +363,7 @@
         <oboInOwl:hasDbXref>http://en.wikipedia.org/wiki/Monoblast</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://www.copewithcytokines.de</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000047 -->
@@ -383,7 +388,7 @@
         <oboInOwl:hasDbXref>PMID:15247488</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://en.wikipedia.org/wiki/Neural_stem_cell</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000048 -->
@@ -406,7 +411,7 @@
         <owl:annotatedTarget>A stem cell that can give rise to multiple lineages of cells.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:add</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000049 -->
@@ -479,7 +484,7 @@
         <owl:annotatedTarget>pluripotent stem cell (bone marrow)</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:0878932437</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000051 -->
@@ -512,7 +517,7 @@
         <oboInOwl:hasDbXref>PMID:10407577</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:16551251</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000055 -->
@@ -533,7 +538,7 @@
         <owl:annotatedTarget>A precursor cell with a limited number of potential fates.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SANBI:mhl</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000056 -->
@@ -557,7 +562,7 @@
         <oboInOwl:hasDbXref>MESH:A11.635</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:21849021</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000057 -->
@@ -582,7 +587,7 @@
         <oboInOwl:hasDbXref>MESH:D005347</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://en.wikipedia.org/wiki/Fibroblast</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000066 -->
@@ -609,7 +614,7 @@
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:A11.436</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000068 -->
@@ -627,7 +632,7 @@
         <owl:annotatedTarget>An epithelial cell that is part of a duct.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>https://orcid.org/0000-0001-5208-3432</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000071 -->
@@ -646,7 +651,7 @@
         <owl:annotatedTarget>An endothelial cell that lines the vasculature.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000075 -->
@@ -665,7 +670,7 @@
         <oboInOwl:hasDbXref>GO:0002065</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>https://orcid.org/0000-0001-5208-3432</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000076 -->
@@ -676,7 +681,7 @@
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
         <rdfs:label>squamous epithelial cell</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000077 -->
@@ -698,7 +703,7 @@
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:0721662544</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000080 -->
@@ -715,7 +720,7 @@
         <owl:annotatedTarget>A cell which moves among different tissues of the body, via blood, lymph, or other medium.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:add</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000095 -->
@@ -725,7 +730,7 @@
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
         <rdfs:label>neuron associated cell</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000099 -->
@@ -747,7 +752,7 @@
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:A08.663.358</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000103 -->
@@ -766,7 +771,7 @@
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ISBN:0444009442</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000104 -->
@@ -785,7 +790,7 @@
         <oboInOwl:hasDbXref>FMA:67287</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000115 -->
@@ -812,7 +817,7 @@
         <oboInOwl:hasDbXref>http://en.wikipedia.org/wiki/Endothelial_cell</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>https://sourceforge.net/tracker/?func=detail&amp;atid=440764&amp;aid=3364936&amp;group_id=36855</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000117 -->
@@ -822,7 +827,7 @@
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
         <rdfs:label>CNS neuron (sensu Vertebrata)</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000123 -->
@@ -832,7 +837,7 @@
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
         <rdfs:label>neuron associated cell (sensu Vertebrata)</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000125 -->
@@ -854,7 +859,7 @@
         <owl:annotatedTarget>A non-neuronal cell of the nervous system. They not only provide physical support, but also respond to injury, regulate the ionic and chemical composition of the extracellular milieu. Guide neuronal migration during development, and exchange metabolites with neurons.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>MESH:A08.637</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000126 -->
@@ -876,7 +881,7 @@
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:0721662544</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000127 -->
@@ -906,7 +911,7 @@
         <oboInOwl:hasDbXref>PMID:20942978</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://en.wikipedia.org/wiki/Astrocyte</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000128 -->
@@ -937,7 +942,7 @@
         <owl:annotatedTarget>OLs</owl:annotatedTarget>
         <oboInOwl:hasDbXref>PMID:8734446</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000129 -->
@@ -990,7 +995,7 @@
         <owl:annotatedTarget>microgliocyte</owl:annotatedTarget>
         <oboInOwl:hasDbXref>http://www.copewithcytokines.de/</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000133 -->
@@ -1009,7 +1014,7 @@
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:068340007X</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000134 -->
@@ -1085,7 +1090,7 @@
         <oboInOwl:hasDbXref>MESH:D044982</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/cl#PLURAL"/>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000145 -->
@@ -1105,7 +1110,7 @@
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:add</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:0781735149</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000151 -->
@@ -1125,7 +1130,7 @@
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:0721662544</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000152 -->
@@ -1143,7 +1148,7 @@
         <owl:annotatedTarget>A cell of an exocrine gland; i.e. a gland that discharges its secretion via a duct.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:0198547684</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000161 -->
@@ -1153,7 +1158,7 @@
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
         <rdfs:label>acid secreting cell</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000183 -->
@@ -1170,7 +1175,7 @@
         <owl:annotatedTarget>A cell whose primary function is to shorten.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB:ma</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000187 -->
@@ -1198,7 +1203,7 @@
         <owl:annotatedTarget>A mature contractile cell, commonly known as a myocyte. This cell has as part of its cytoplasm myofibrils organized in various patterns.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>MESH:A11.620</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000192 -->
@@ -1239,7 +1244,7 @@
         <owl:annotatedTarget>myocytes, smooth muscle</owl:annotatedTarget>
         <oboInOwl:hasDbXref>MESH:D032389</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000211 -->
@@ -1256,7 +1261,7 @@
         <owl:annotatedTarget>A cell whose function is determined by the generation or the reception of an electric signal.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB:ma</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000213 -->
@@ -1274,7 +1279,7 @@
         <owl:annotatedTarget>A cell within an epithelial cell sheet whose main function is to act as an internal or external covering for a tissue or an organism.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JB:jb</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000215 -->
@@ -1291,7 +1296,7 @@
         <owl:annotatedTarget>A cell whose primary function is to prevent the transport of stuff across compartments.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JB:jb</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000219 -->
@@ -1308,7 +1313,7 @@
         <owl:annotatedTarget>A cell that moves by its own activities.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB:ma</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000221 -->
@@ -1327,7 +1332,7 @@
         <owl:annotatedTarget>A cell of the outer of the three germ layers of the embryo.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>MESH:A16.254.425.273</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000222 -->
@@ -1347,7 +1352,7 @@
         <owl:annotatedTarget>A cell of the middle germ layer of the embryo.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>MESH:A16.254.425.660</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000223 -->
@@ -1366,7 +1371,7 @@
         <owl:annotatedTarget>A cell of the inner of the three germ layers of the embryo.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>MESH:A16.254.425.407</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000225 -->
@@ -1386,7 +1391,7 @@
         <owl:annotatedTarget>A cell that lacks a nucleus.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB:ma</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000226 -->
@@ -1404,7 +1409,7 @@
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB:ma</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000227 -->
@@ -1414,7 +1419,7 @@
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
         <rdfs:label>binucleate cell</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000228 -->
@@ -1436,7 +1441,7 @@
         <owl:annotatedTarget>A cell with more than one nucleus.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB:ma</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000234 -->
@@ -1458,7 +1463,7 @@
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:add</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:0721601464</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000235 -->
@@ -1487,7 +1492,7 @@
         <oboInOwl:hasDbXref>PMID:16213494</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:1919437</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000255 -->
@@ -1497,7 +1502,7 @@
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
         <rdfs:label>eukaryotic cell</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000306 -->
@@ -1509,7 +1514,7 @@
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
         <rdfs:label>crystallin accumulating cell</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000325 -->
@@ -1527,7 +1532,7 @@
         <owl:annotatedTarget>A cell that is specialised to accumulate a particular substance(s).</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB:ma</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000333 -->
@@ -1547,7 +1552,7 @@
         <owl:annotatedTarget>A cell derived from the specialized ectoderm flanking each side of the embryonic neural plate, which after the closure of the neural tube, forms masses of cells that migrate out from the dorsal aspect of the neural tube to spread throughout the body.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>MESH:A16.254.600</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000339 -->
@@ -1569,7 +1574,7 @@
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:0618947256</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000349 -->
@@ -1580,7 +1585,7 @@
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
         <rdfs:label>extraembryonic cell</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000359 -->
@@ -1600,7 +1605,7 @@
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:dsd</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000362 -->
@@ -1636,7 +1641,7 @@
         <owl:annotatedTarget>epithelial cell of skin</owl:annotatedTarget>
         <oboInOwl:hasDbXref>FMA:62411</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000393 -->
@@ -1653,7 +1658,7 @@
         <owl:annotatedTarget>A cell whose function is determined by its response to an electric signal.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB:ma</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000402 -->
@@ -1665,7 +1670,7 @@
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
         <rdfs:label>CNS interneuron</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000404 -->
@@ -1682,7 +1687,7 @@
         <owl:annotatedTarget>A cell that initiates an electrical signal and passes that signal to another cell.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB:ma</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000473 -->
@@ -1699,7 +1704,7 @@
         <owl:annotatedTarget>A cell whose primary function is to protect the organism.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JB:jb</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000498 -->
@@ -1718,7 +1723,7 @@
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://en.wikipedia.org/wiki/Interneuron</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000514 -->
@@ -1746,7 +1751,7 @@
         <owl:annotatedTarget>myoblast, smooth muscle</owl:annotatedTarget>
         <oboInOwl:hasDbXref>MESH:D032390</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000540 -->
@@ -1777,7 +1782,7 @@
         <oboInOwl:hasDbXref>MESH:D009474</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://en.wikipedia.org/wiki/Neuron</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000548 -->
@@ -1788,7 +1793,7 @@
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ubprop#_upper_level"/>
         <rdfs:label>animal cell</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000557 -->
@@ -1865,7 +1870,7 @@
         <oboInOwl:hasDbXref>PMCID:PMC2213186</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMCID:PMC548021</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000559 -->
@@ -1887,7 +1892,7 @@
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:0721601464</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000566 -->
@@ -1910,7 +1915,7 @@
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:12768659</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000575 -->
@@ -1939,7 +1944,7 @@
         <owl:annotatedTarget>epithelial cell of cornea</owl:annotatedTarget>
         <oboInOwl:hasDbXref>FMA:70551</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000576 -->
@@ -1963,7 +1968,7 @@
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO_REF:0000031</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:A11.118.637.555.652</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000598 -->
@@ -1989,7 +1994,7 @@
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:A08.186.211.577.405.700</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000617 -->
@@ -2010,7 +2015,7 @@
         <owl:annotatedTarget>A neuron that uses GABA as a vesicular neurotransmitter</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000630 -->
@@ -2029,7 +2034,7 @@
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB:ma</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000669 -->
@@ -2071,7 +2076,7 @@
         <owl:annotatedTarget>ARC</owl:annotatedTarget>
         <oboInOwl:hasDbXref>PMID:17986482</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000679 -->
@@ -2083,7 +2088,7 @@
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
         <rdfs:label>glutamatergic neuron</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000680 -->
@@ -2101,7 +2106,7 @@
         <owl:annotatedTarget>A non-terminally differentiated cell that is capable of developing into a muscle cell.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:add</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000693 -->
@@ -2135,7 +2140,7 @@
         <owl:annotatedTarget>neuroglioform cell</owl:annotatedTarget>
         <oboInOwl:hasDbXref>PMID:3235828</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000710 -->
@@ -2157,7 +2162,7 @@
         <owl:annotatedTarget>Epithelial cells derived from neural plate and neural crest.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000723 -->
@@ -2177,7 +2182,7 @@
         <owl:annotatedTarget>A stem cell that can give rise to cell types of the body other than those of the germ-line.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GO:0048103</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000738 -->
@@ -2204,7 +2209,7 @@
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ISBN:978-0-323-05290-0</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000748 -->
@@ -2224,7 +2229,7 @@
         <owl:annotatedTarget>A bipolar neuron found in the retina and having connections with photoreceptors cells and neurons in the inner plexiform layer.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:14689473</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000763 -->
@@ -2243,7 +2248,7 @@
         <owl:annotatedTarget>A cell of the monocyte, granulocyte, mast cell, megakaryocyte, or erythroid lineage.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:add</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000766 -->
@@ -2261,7 +2266,7 @@
         <owl:annotatedTarget>A cell of the monocyte, granulocyte, or mast cell lineage.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:add</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000837 -->
@@ -2286,7 +2291,7 @@
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:19022770</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000838 -->
@@ -2311,7 +2316,7 @@
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:add</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000839 -->
@@ -2336,7 +2341,7 @@
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:19022770</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000842 -->
@@ -2359,7 +2364,7 @@
         <owl:annotatedTarget>A leukocyte with a single non-segmented nucleus in the mature form.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:add</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000864 -->
@@ -2382,7 +2387,7 @@
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO_REF:0000031</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:19770654</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000878 -->
@@ -2402,7 +2407,7 @@
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO_REF:0000031</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:16322748</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000881 -->
@@ -2422,7 +2427,7 @@
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO_REF:0000031</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:16507898</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000988 -->
@@ -2448,7 +2453,7 @@
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:add</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO_REF:0000031</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000995 -->
@@ -2468,7 +2473,7 @@
         <rdfs:comment>Originally described in the dendritic cell ontology (DC_CL:1100000)(PMID:19243617).</rdfs:comment>
         <rdfs:label>CD34-positive, CD38-positive common myeloid progenitor OR CD34-positive, CD38-positive common lymphoid progenitor</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0001012 -->
@@ -2487,7 +2492,7 @@
         <rdfs:comment>Originally described in the dendritic cell ontology (DC_CL:1110000)(PMID:19243617).</rdfs:comment>
         <rdfs:label>CD7-negative lymphoid progenitor OR granulocyte monocyte progenitor</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0001021 -->
@@ -2514,7 +2519,7 @@
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMCID:PMC2346585</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:19022770</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0001024 -->
@@ -2549,7 +2554,7 @@
         <owl:annotatedTarget>CD133-positive hematopoietic stem cell</owl:annotatedTarget>
         <oboInOwl:hasDbXref>PMID:16140871</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0001026 -->
@@ -2573,7 +2578,7 @@
         <oboInOwl:hasDbXref>PMCID:PMC2626675</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:16551251</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0001027 -->
@@ -2595,7 +2600,7 @@
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO_REF:0000031</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:16551251</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0001028 -->
@@ -2618,7 +2623,7 @@
         <oboInOwl:hasDbXref>PMID:16551251</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:19491395</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0001035 -->
@@ -2638,7 +2643,7 @@
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:add</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO_REF:0000034</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0001054 -->
@@ -2664,7 +2669,7 @@
         <owl:annotatedTarget>monocyte</owl:annotatedTarget>
         <oboInOwl:hasDbXref>PMID:22343568</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0001059 -->
@@ -2740,7 +2745,7 @@
         <owl:annotatedTarget>pluripotent stem cell (bone marrow)</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:0878932437</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0001060 -->
@@ -2760,7 +2765,7 @@
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:19022770</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0002001 -->
@@ -2782,7 +2787,7 @@
         <oboInOwl:hasDbXref>PMID:12615892</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:19022770</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0002009 -->
@@ -2805,7 +2810,7 @@
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:19273628</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0002031 -->
@@ -2826,7 +2831,7 @@
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:19022770</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0002032 -->
@@ -2848,7 +2853,7 @@
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:19022770</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>https://orcid.org/0000-0001-5208-3432</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0002043 -->
@@ -2870,7 +2875,7 @@
         <oboInOwl:hasDbXref>PMID:18371405</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:19022770</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0002076 -->
@@ -2892,7 +2897,7 @@
         <oboInOwl:hasDbXref>FMA:69075</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0002077 -->
@@ -2914,7 +2919,7 @@
         <oboInOwl:hasDbXref>FMA:69074</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0002078 -->
@@ -2937,7 +2942,7 @@
         <oboInOwl:hasDbXref>FMA:69076</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0002087 -->
@@ -2958,7 +2963,7 @@
         <owl:annotatedTarget>A leukocyte that lacks granules.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0002092 -->
@@ -2981,7 +2986,7 @@
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:0618947256</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0002139 -->
@@ -3008,7 +3013,7 @@
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:12768659</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0002144 -->
@@ -3030,7 +3035,7 @@
         <owl:annotatedTarget>An endothelial cell found in capillaries.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0002159 -->
@@ -3050,7 +3055,7 @@
         <owl:annotatedTarget>Epithelial cells derived from general body ectoderm and ectoderm placodes.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0002191 -->
@@ -3070,7 +3075,7 @@
         <owl:annotatedTarget>A cell involved in the formation of a granulocyte.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0002194 -->
@@ -3090,7 +3095,7 @@
         <owl:annotatedTarget>A cell involved in the formation of a monocyte (monopoiesis).</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0002222 -->
@@ -3113,7 +3118,7 @@
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:0721662544</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0002224 -->
@@ -3136,7 +3141,7 @@
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:0721662544</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>http://en.wikipedia.org/wiki/Lens_%28anatomy%29#Lens_epithelium</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0002240 -->
@@ -3157,7 +3162,7 @@
         <owl:annotatedTarget>A fibroblast in the bone marrow.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0002242 -->
@@ -3177,7 +3182,7 @@
         <owl:annotatedTarget>A cell containing at least one nucleus.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0002246 -->
@@ -3200,7 +3205,7 @@
         <owl:annotatedTarget>A hematopoeitic stem cell found in the blood. Normally found in very limited numbers in the peripheral circulation (less than 0.1% of all nucleated cells).</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0002251 -->
@@ -3220,7 +3225,7 @@
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:0721662544</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0002308 -->
@@ -3241,7 +3246,7 @@
         <owl:annotatedTarget>An epithelial cell of a skin gland.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0002319 -->
@@ -3264,7 +3269,7 @@
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:0618947256</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0002320 -->
@@ -3288,7 +3293,7 @@
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:0618947256</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0002321 -->
@@ -3311,7 +3316,7 @@
         <owl:annotatedTarget>A cell of the embryo.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>FMA:0618947256</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0002350 -->
@@ -3341,7 +3346,7 @@
         <owl:annotatedTarget>endothelial cell of endocardium</owl:annotatedTarget>
         <oboInOwl:hasDbXref>FMA:75621</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0002352 -->
@@ -3361,7 +3366,7 @@
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ISBN:978-60327-246-6</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0002371 -->
@@ -3385,7 +3390,7 @@
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:0721662544</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0002453 -->
@@ -3405,7 +3410,7 @@
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:20142420</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0002494 -->
@@ -3431,7 +3436,7 @@
         <owl:annotatedTarget>A cell located in the heart, including both muscle and non muscle cells.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0002503 -->
@@ -3453,7 +3458,7 @@
         <owl:annotatedTarget>A cell of the adventitial layer of ductal structures such as the uterer, defent duct, biliary duct, etc</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0002540 -->
@@ -3473,7 +3478,7 @@
         <owl:annotatedTarget>A mesenchymal stem cell that is part of the bone marrow.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0002543 -->
@@ -3497,7 +3502,7 @@
         <owl:annotatedTarget>An endothelial cell that is part of the vein.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0002546 -->
@@ -3518,7 +3523,7 @@
         <owl:annotatedTarget>An endothelial progenitor cell that participates in angiogenesis during development.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0002548 -->
@@ -3539,7 +3544,7 @@
         <owl:annotatedTarget>A fibroblast that is part of the heart.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0002551 -->
@@ -3551,7 +3556,7 @@
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
         <rdfs:label>fibroblast of dermis</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0002570 -->
@@ -3570,7 +3575,7 @@
         <owl:annotatedTarget>A mesenchymal stem cell of adipose tissue.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0002573 -->
@@ -3591,7 +3596,7 @@
         <owl:annotatedTarget>A glial cell that ensheathes axons of neuron in the peripheral nervous system and are necessary for their maintainance and function.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0002575 -->
@@ -3611,7 +3616,7 @@
         <owl:annotatedTarget>A pericyte of the central nervous system.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0002585 -->
@@ -3631,7 +3636,7 @@
         <owl:annotatedTarget>A blood vessel endothelial cell that is part of the retina.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0002590 -->
@@ -3651,7 +3656,7 @@
         <owl:annotatedTarget>A vascular associated smooth muscle cell of the brain vasculature.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0002605 -->
@@ -3671,7 +3676,7 @@
         <owl:annotatedTarget>An astrocyte of the cerebral cortex.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0002606 -->
@@ -3690,7 +3695,7 @@
         <owl:annotatedTarget>An astrocyte of the spinal cord.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0002609 -->
@@ -3713,7 +3718,7 @@
         <owl:annotatedTarget>A CNS neuron of the cerebral cortex.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0002620 -->
@@ -3734,7 +3739,7 @@
         <owl:annotatedTarget>A fibroblast of skin.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0002676 -->
@@ -3755,7 +3760,7 @@
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:17407019</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0005000 -->
@@ -3773,7 +3778,7 @@
         <owl:annotatedTarget>A CNS interneuron located in the spinal cord.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:CVS</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0007004 -->
@@ -3792,7 +3797,7 @@
         <owl:annotatedTarget>Cell that is part of the neural crest region of the neuroepithelium, prior to migration. Note that not all premigratory neural crest cells may become migratory neural crest cells.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>UBERONREF:0000002</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0008000 -->
@@ -3808,7 +3813,7 @@
         <owl:annotatedTarget>Any muscle cell in which the fibers are not organised into sarcomeres.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:DOS</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0008001 -->
@@ -3824,7 +3829,7 @@
         <owl:annotatedTarget>Any hematopoietic cell that is a precursor of some other hematopoietic cell type.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:dos</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0008007 -->
@@ -3840,7 +3845,7 @@
         <owl:annotatedTarget>A muscle cell that is part of some visceral muscle</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:dos</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0008028 -->
@@ -3851,7 +3856,7 @@
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-07-09T19:12:36Z</oboInOwl:creation_date>
         <rdfs:label>visual system neuron</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0008030 -->
@@ -3863,7 +3868,7 @@
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-07-12T11:11:06Z</oboInOwl:creation_date>
         <rdfs:label>excitatory neuron</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0008034 -->
@@ -3882,7 +3887,7 @@
         <owl:annotatedTarget>Mural cells are pericytes and the vascular smooth muscle cells (vSMCs) of the microcirculation.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>Wiki:Mural_cell&amp;oldid=930603194</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0008035 -->
@@ -3894,7 +3899,7 @@
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-29T17:37:00Z</oboInOwl:creation_date>
         <rdfs:label xml:lang="en">microcirculation associated smooth muscle cell</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0009004 -->
@@ -3912,7 +3917,7 @@
         <owl:annotatedTarget>Any cell in the retina, the innermost layer or coating at the back of the eyeball, which is sensitive to light and in which the optic nerve terminates.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:pr</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0010004 -->
@@ -3925,7 +3930,7 @@
         <oboInOwl:hasExactSynonym>bone marrow mononuclear cell</oboInOwl:hasExactSynonym>
         <rdfs:label>mononuclear cell of bone marrow</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0010006 -->
@@ -3935,7 +3940,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0010008"/>
         <rdfs:label>cardiac blood vessel endothelial cell</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0010008 -->
@@ -3945,7 +3950,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002494"/>
         <rdfs:label>cardiac endothelial cell</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0010011 -->
@@ -3963,7 +3968,7 @@
         <owl:annotatedTarget>A GABAergic interneuron whose soma is located in the cerebral cortex.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:dos</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0010012 -->
@@ -3973,7 +3978,7 @@
         <obo:IAO_0000115>A neuron that is part_of a cerebral cortex.</obo:IAO_0000115>
         <rdfs:label>cerebral cortex neuron</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0010020 -->
@@ -3983,7 +3988,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002494"/>
         <rdfs:label>cardiac glial cell</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0010022 -->
@@ -3993,7 +3998,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002494"/>
         <rdfs:label>cardiac neuron</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0011005 -->
@@ -4014,7 +4019,7 @@
         <oboInOwl:hasDbXref>GOC:nv</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:29724907</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0011007 -->
@@ -4034,7 +4039,7 @@
         <oboInOwl:hasDbXref>GOC:NV</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:11687492</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0011012 -->
@@ -4053,7 +4058,7 @@
         <oboInOwl:hasDbXref>https://orcid.org/0000-0001-5208-3432</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>https://orcid.org/0000-0002-9900-7880</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0011019 -->
@@ -4065,7 +4070,7 @@
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <rdfs:label>mesothelial cell of epicardium</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0011022 -->
@@ -4076,7 +4081,7 @@
         <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <rdfs:label>fibroblast of skin of back</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0011026 -->
@@ -4094,7 +4099,7 @@
         <oboInOwl:hasDbXref>ISBN:978-1-62808-994-3</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>https://doi.org/10.1016/B978-0-12-409503-8.00002-0</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0011115 -->
@@ -4111,7 +4116,7 @@
         <owl:annotatedTarget>A cell that, by division or terminal differentiation, can give rise to other cell types.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:dos</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0012000 -->
@@ -4125,7 +4130,7 @@
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
         <rdfs:label>astrocyte of the forebrain</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0012001 -->
@@ -4139,7 +4144,7 @@
         <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
         <rdfs:label>neuron of the forebrain</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_0019018 -->
@@ -4158,7 +4163,7 @@
         <owl:annotatedTarget>A smooth muscle cell that is part of any blood vessel.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>PMID:9108778</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_1000042 -->
@@ -4168,7 +4173,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002319"/>
         <rdfs:label>forebrain neuroblast</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_1000303 -->
@@ -4186,7 +4191,7 @@
         <owl:annotatedTarget>A fibroblast that is part of the areolar connective tissue.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_1000306 -->
@@ -4205,7 +4210,7 @@
         <owl:annotatedTarget>A fibroblast that is part of the tunica adventitia of artery.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_1000412 -->
@@ -4224,7 +4229,7 @@
         <owl:annotatedTarget>An endothelial cell that is part of the arteriole.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_1000413 -->
@@ -4246,7 +4251,7 @@
         <owl:annotatedTarget>A blood vessel endothelial cell that is part of an arterial endothelium.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_1000414 -->
@@ -4264,7 +4269,7 @@
         <owl:annotatedTarget>An endothelial cell that is part of the venule.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_1000428 -->
@@ -4289,7 +4294,7 @@
         <owl:annotatedTarget>epidermal stem cell</owl:annotatedTarget>
         <oboInOwl:hasDbXref>FMA:70541</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_1000443 -->
@@ -4314,7 +4319,7 @@
         <owl:annotatedTarget>smooth muscle cell of ciliary body</owl:annotatedTarget>
         <oboInOwl:hasDbXref>FMA:70610</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_1000444 -->
@@ -4332,7 +4337,7 @@
         <owl:annotatedTarget>A mesothelial cell that is part of the anterior chamber of eyeball.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GOC:tfm</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_1001576 -->
@@ -4378,7 +4383,7 @@
         <owl:annotatedTarget>oral mucosa squamous epithelial cells</owl:annotatedTarget>
         <oboInOwl:hasDbXref>CALOHA:TS-1252</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_1001579 -->
@@ -4416,7 +4421,7 @@
         <owl:annotatedTarget>cerebrum cortex glial cell</owl:annotatedTarget>
         <oboInOwl:hasDbXref>CALOHA:TS-1256</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_1001602 -->
@@ -4448,7 +4453,7 @@
         <owl:annotatedTarget>endothelial cells of cerebral cortex</owl:annotatedTarget>
         <oboInOwl:hasDbXref>CALOHA:TS-2372</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_1001609 -->
@@ -4465,7 +4470,7 @@
         <owl:annotatedTarget>Fibroblast from muscle organ.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>NPX:PDR</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_1001610 -->
@@ -4497,7 +4502,7 @@
         <owl:annotatedTarget>bone marrow poietic cells</owl:annotatedTarget>
         <oboInOwl:hasDbXref>CALOHA:TS-2109</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_2000001 -->
@@ -4518,7 +4523,7 @@
         <owl:annotatedTarget>A leukocyte with a single non-segmented nucleus in the mature form found in the circulatory pool of blood.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:TermGenie</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_2000005 -->
@@ -4538,7 +4543,7 @@
         <owl:annotatedTarget>Any macroglial cell that is part of a brain.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:TermGenie</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_2000010 -->
@@ -4558,7 +4563,7 @@
         <owl:annotatedTarget>Any blood vessel endothelial cell that is part of a dermis.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:TermGenie</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_2000022 -->
@@ -4578,7 +4583,7 @@
         <owl:annotatedTarget>Any native cell that is part of a cardiac septum.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:TermGenie</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_2000025 -->
@@ -4598,7 +4603,7 @@
         <owl:annotatedTarget>Any oligodendrocyte that is part of a spinal cord.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:TermGenie</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_2000029 -->
@@ -4618,7 +4623,7 @@
         <owl:annotatedTarget>Any neuron that is part of a central nervous system.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:TermGenie</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_2000032 -->
@@ -4638,7 +4643,7 @@
         <owl:annotatedTarget>Any neuron that is part of a peripheral nervous system.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:TermGenie</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_2000042 -->
@@ -4658,7 +4663,7 @@
         <owl:annotatedTarget>Any fibroblast that is part of a embryo.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:TermGenie</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_2000043 -->
@@ -4678,7 +4683,7 @@
         <owl:annotatedTarget>Any pericyte cell that is part of a brain.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:TermGenie</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_2000049 -->
@@ -4700,7 +4705,7 @@
         <owl:annotatedTarget>Any pyramidal cell that is part of a primary motor cortex.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:TermGenie</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_2000066 -->
@@ -4721,7 +4726,7 @@
         <owl:annotatedTarget>Any fibroblast that is part of a cardiac ventricle.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:TermGenie</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_2000067 -->
@@ -4742,7 +4747,7 @@
         <owl:annotatedTarget>Any fibroblast that is part of a cardiac atrium.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:TermGenie</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_2000068 -->
@@ -4763,7 +4768,7 @@
         <owl:annotatedTarget>Any fibroblast that is part of a pericardium.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:TermGenie</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_2000070 -->
@@ -4784,7 +4789,7 @@
         <owl:annotatedTarget>Any fibroblast that is part of a optic choroid.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:TermGenie</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_4023007 -->
@@ -4804,7 +4809,7 @@
         <owl:annotatedTarget>A Vip GABAergic cortical interneuron with bipolar morphology, with a soma found in L2/3. L2/3 bipolar Vip Cells have extending axons across all layers (with preferences for layers II/III and Va) and a dendritic tree that is vertically more restricted than deeper layer VIP cells and extend fewer dendrites into the layers outside their home layer (location of soma). L2/3 Bipolar Vip Cells have great variability in firing patterns, though most are continuous adapting. L2/3 Bipolar Vip Cells are more depolarized in their resting state, had less fast rectification, and had smaller after hyperpolarization than deeper Vip cells.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>PMID:26420784</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_4023008 -->
@@ -4825,7 +4830,7 @@
         <owl:annotatedTarget>A glutamatergic neuron located in the cerebral cortex that projects to structures of telencephalic origins.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>DOI:10.1101/2020.10.19.343129</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_4023009 -->
@@ -4846,7 +4851,7 @@
         <owl:annotatedTarget>A glutamatergic neuron located in the cerebral cortex that projects to structures not derived from telencephalon.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>DOI:10.1101/2020.10.19.343129</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_4023010 -->
@@ -4881,7 +4886,7 @@
         <oboInOwl:hasDbXref>PMID:30413647</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:33184512</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_4023011 -->
@@ -4900,7 +4905,7 @@
         <owl:annotatedTarget>A GABAergic neuron located in the cerebral cortex that expresses Lamp5</owl:annotatedTarget>
         <oboInOwl:hasDbXref>PMID:30382198</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_4023012 -->
@@ -4921,7 +4926,7 @@
         <owl:annotatedTarget>A glutamatergic neuron located in the cerebral cortex that projects axons locally rather than distantly.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>DOI:10.1101/2020.10.19.343129</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_4023013 -->
@@ -4941,7 +4946,7 @@
         <owl:annotatedTarget>A glutamatergic neuron located in the cerebral cortex that projects to the thalamus.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>DOI:10.1101/2020.10.19.343129</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_4023014 -->
@@ -4961,7 +4966,7 @@
         <oboInOwl:hasDbXref>PMID:26420784</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:26612957</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_4023015 -->
@@ -4980,7 +4985,7 @@
         <owl:annotatedTarget>A GABAergic neuron located in the cerebral cortex that expresses Gamma-synuclein</owl:annotatedTarget>
         <oboInOwl:hasDbXref>PMID:33186530</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_4023016 -->
@@ -4999,7 +5004,7 @@
         <owl:annotatedTarget>A GABAergic neuron located in the cerebral cortex that expresses vasoactive intestinal polypeptide</owl:annotatedTarget>
         <oboInOwl:hasDbXref>PMID:33186530</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_4023017 -->
@@ -5018,7 +5023,7 @@
         <owl:annotatedTarget>A GABAergic neuron located in the cerebral cortex that expresses somatostatin (sst)</owl:annotatedTarget>
         <oboInOwl:hasDbXref>PMID:27477017</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_4023018 -->
@@ -5037,7 +5042,7 @@
         <owl:annotatedTarget>A GABAergic interneuron located in the cerebral cortex that expresses Parvalbumin.</owl:annotatedTarget>
         <obo:IAO_0000115>PMID:27477017</obo:IAO_0000115>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_4023019 -->
@@ -5057,7 +5062,7 @@
         <owl:annotatedTarget>A Vip GABAergic cortical interneuron that expresses CCK. L5/6 CCK cells have soma found mainly in L5 and L6 and have large axonal arborization.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>PMID:33184512</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_4023022 -->
@@ -5075,7 +5080,7 @@
         <owl:annotatedTarget>A Lamp5 GABAergic cortical interneuron that has extended axons in the surface of L1. Canopy Lamp5 cells resemble neurogliaform cells in having elongated horizontal axonal arbors largely confined to L1; but the dendritic arbors are wider and have fewer branches, while the axon is less tortuous and extends further from the soma</owl:annotatedTarget>
         <oboInOwl:hasDbXref>PMID:30413647</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_4023023 -->
@@ -5095,7 +5100,7 @@
         <owl:annotatedTarget>A Lamp 5 GABAergic cortical interneuron with neurogliaform morphology with a soma found in L5,6. L5,6 NGC Lamp5 have deep afterhyperpolarization (AHP) but narrow action potentials (APs). Unlike other deep neurogliaform cells (which are caudal ganglionic eminence (CGE) derived), L5,6 NGC Lamp5 cells are medial ganglionic eminence (MGE)-derived</owl:annotatedTarget>
         <oboInOwl:hasDbXref>PMID:26727548</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_4023024 -->
@@ -5115,7 +5120,7 @@
         <owl:annotatedTarget>A Lamp5 GABAergic cortical interneuron with layer-adapting morphology. NGC Lamp5 cells have a small round soma, short dendrites, and a wide dense axonal arbor that tends to establish a dense axonal mesh with high connection probability both to themselves and L2 pyramidal cells. NGC Lamp5 cells have unique synaptic properties that distinguish them from other GABAergic interneurons, including the release of GABA to the extracellular space via volume transmission, and the ability to produce GABA-B responses in connected postsynaptic targets.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>PMID:27477017</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_4023025 -->
@@ -5134,7 +5139,7 @@
         <owl:annotatedTarget>A Sst GABAergic cortical interneuron that is both an interneuron and a projecting neuron. They are found in all layers from upper L2/3 down to the bottom of L6. They have long-range projections, some with axons fading into white matter. These cells have low rebound potential, low hyperpolarization sag, and high variability in membrane time constant.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>PMID:26727548</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_4023027 -->
@@ -5155,7 +5160,7 @@
         <oboInOwl:hasDbXref>PMID:28254942</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:29326172</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_4023028 -->
@@ -5175,7 +5180,7 @@
         <oboInOwl:hasDbXref>PMID:28254942</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:29326172</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_4023030 -->
@@ -5205,7 +5210,7 @@
         <owl:annotatedTarget>L2/3/5 fan Martionotti SST cells have an adapting firing pattern and non-zero afterdepolarization (ADP).</owl:annotatedTarget>
         <oboInOwl:hasDbXref>PMID:33184512</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_4023031 -->
@@ -5225,7 +5230,7 @@
         <owl:annotatedTarget>A Sst GABAergic cortical interneuron with a soma found in lower L2/3 and upper 5, L4 Sst cells have martinotti morphology with ascending axons but denser local axons and sparser ‘fanning-out’ projections to L1. L4 Sst cells have smaller membrane time constant to calb2 (L2/3/5 Fan Martinotti Cell) and non-zero afterdepolarization (ADP).</owl:annotatedTarget>
         <oboInOwl:hasDbXref>PMID:33184512</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_4023034 -->
@@ -5244,7 +5249,7 @@
         <owl:annotatedTarget>A Sst GABAergic cortical interneuron transcriptomically between the Sst and the Pvalb families with a soma found in L2/3. Some L2/3 PV-like SST cells have Martinotti morphology while some have basket cell morphology. L2/3 PV-like SST cells have lower AP width and higher firing rate than typical Sst subclass cells. L2/3 PV-like SST cells have high maximum firing rate variability, with many classified as belonging to the Pvalb subclass on the basis of electrophysiology.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>PMID:33184512</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_4023036 -->
@@ -5265,7 +5270,7 @@
         <owl:annotatedTarget>A Pvalb GABAergic cortical interneuron that is recognizable by the straight terminal axonal &apos;cartridges&apos; of vertically oriented strings of synaptic boutons. Chandelier PV cells have soma found in in upper L2/3, with some in deep L5. Chandelier PV cells exhibit fast-spiking but lower firing rate compared to basket cells, and have practically absent hyperpolarization sag. Chandelier PV cells&apos; boutons target exclusively the axon initial segment (AIS) of pyramidal cells, with a single cell innervating hundreds of pyramidal cells in a clustered manner.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>PMID:27477017</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_4023038 -->
@@ -5286,7 +5291,7 @@
         <oboInOwl:hasDbXref>DOI:10.1101/2020.10.19.34312</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:30382198</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_4023040 -->
@@ -5305,7 +5310,7 @@
         <owl:annotatedTarget>A intratelencephalic-projecting glutamatergic neuron with a soma found in cortical layers L2/3-6</owl:annotatedTarget>
         <oboInOwl:hasDbXref>DOI:10.1101/2020.10.19.343129</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_4023041 -->
@@ -5328,7 +5333,7 @@
         <owl:annotatedTarget>A glutamatergic neuron, with a soma found in the deeper portion of L5, that has long-range axonal projections including deep subcortical targets outside of the telencephalon and, in some cases, the spinal cord. While the L5 ET neuron projections are not limited to ET targets, they are clearly differentiated from the neuron subclasses whose projections are constrained to intratelencephalic (IT) targets.  L5 ET neurons are generally the largest excitatory cortical neurons, typically having a thick apical dendrite with a prominent dendritic tuft in layer 1 and displaying burst-firing physiological characteristics.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>DOI:10.1101/2020.10.19.343129</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_4023042 -->
@@ -5347,7 +5352,7 @@
         <owl:annotatedTarget>A corticothalamic-projecting neuron with a soma found in cortical layer 6.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>DOI:10.1101/2020.10.19.343129</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_4023043 -->
@@ -5368,7 +5373,7 @@
         <oboInOwl:hasDbXref>DOI:10.1101/2020.10.19.343129</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:31209381</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_4023044 -->
@@ -5389,7 +5394,7 @@
         <oboInOwl:hasDbXref>PMID:24137110</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:9236245</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_4023045 -->
@@ -5410,7 +5415,7 @@
         <oboInOwl:hasDbXref>PMID:24137110</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:9236245</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_4023046 -->
@@ -5428,7 +5433,7 @@
         <owl:annotatedTarget>An excitatory glutamatergic neuron transcriptomically related to the CT subclass, with a soma preferentially located in the bottom of L6 of the primary motor cortex.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>PMID:33184512</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_4023047 -->
@@ -5447,7 +5452,7 @@
         <owl:annotatedTarget>An intratelencephalic-projecting glutamatergic neuron with a soma found in cortical layer 2/3.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>DOI:10.1101/2020.10.19.343129</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_4023048 -->
@@ -5467,7 +5472,7 @@
         <owl:annotatedTarget>An intratelencephalic-projecting glutamatergic with a soma located in upper L5 of the primary motor cortex. These cells have thin untufted apical dendrites.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>PMID:33184512</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_4023049 -->
@@ -5487,7 +5492,7 @@
         <owl:annotatedTarget>An intratelencephalic-projecting glutamatergic neuron with a soma found in L5 of the primary motor cortex.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>PMID:33184512</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_4023050 -->
@@ -5508,7 +5513,7 @@
         <owl:annotatedTarget>An intratelencephalic-projecting glutamatergic neuron with a soma found in L6 of the primary motor cortex. These cells are short untufted pyramidal cells, which could be stellate or inverted.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>PMID:9236245</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_4023051 -->
@@ -5530,7 +5535,7 @@
         <oboInOwl:hasDbXref>PMID:29443965</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:30096314</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_4023054 -->
@@ -5548,7 +5553,7 @@
         <owl:annotatedTarget>A mesothelial cell that has undergone mesothelial-to-mesenchymal transition (MMT) to become a fibroblast cell.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>PMID:26106328</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_4023055 -->
@@ -5569,7 +5574,7 @@
         <oboInOwl:hasDbXref>PMID:20556241</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:9236245</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_4023058 -->
@@ -5581,7 +5586,7 @@
         <dc:creator rdf:resource="http://orcid.org/0000-0001-7258-9596"/>
         <rdfs:label>mesothelial fibroblast of the leptomeninx</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_4023065 -->
@@ -5600,7 +5605,7 @@
         <owl:annotatedTarget>A mouse GABAergic cell located in the cerebral cortex that expresses meis2.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>PMID:33372656</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_4023071 -->
@@ -5619,7 +5624,7 @@
         <owl:annotatedTarget>A GABAergic cortical interneuron that expresses CCK. L5/6 CCK cells have soma found mainly in L5 and L6 and have large axonal arborization.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>PMID:33184512</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_4023076 -->
@@ -5639,7 +5644,7 @@
         <owl:annotatedTarget>An interneuron that has Martinotti morphology. These interneurons are scattered throughout various layers of the cerebral cortex, sending their axons up to the cortical layer I where they form axonal arborization.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>WikipediaVersioned:Martinotti_cell&amp;oldid=9947732</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_4023083 -->
@@ -5671,7 +5676,7 @@
         <owl:annotatedTarget>ChC</owl:annotatedTarget>
         <oboInOwl:hasDbXref>PMID:15378039</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_4023086 -->
@@ -5690,7 +5695,7 @@
         <owl:annotatedTarget>A Martinotti neuron that has axons that form a horizontal ramification, making it T-shaped.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">doi:10.1016/b978-0-12-369497-3.10004-4</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_4023087 -->
@@ -5709,7 +5714,7 @@
         <owl:annotatedTarget>A Martinotti neuron that has axons that form a fan-like plexus.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">doi:10.1016/b978-0-12-369497-3.10004-4</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CL_4023095 -->
@@ -5726,7 +5731,7 @@
         <owl:annotatedTarget>A pyramidal neuron which lacks a clear tuft formation but extends to large radial distances.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>PMID:30715238</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_1 -->
@@ -5742,7 +5747,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lamp5 Pax6 primary motor cortex GABAergic interneuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lamp5 Pax6</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_10 -->
@@ -5757,7 +5762,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sncg Slc17a8 primary motor cortex GABAergic interneuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sncg Slc17a8</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_100 -->
@@ -5774,7 +5779,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oligo Opalin_2 primary motor cortex oligodendrocyte (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oligo Opalin_2</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_101 -->
@@ -5791,7 +5796,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oligo Opalin_3 primary motor cortex oligodendrocyte (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oligo Opalin_3</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_102 -->
@@ -5808,7 +5813,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oligo Opalin_4 primary motor cortex oligodendrocyte (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oligo Opalin_4</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_103 -->
@@ -5826,7 +5831,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Endo primary motor cortex endothelial cell (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Endo</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_104 -->
@@ -5843,7 +5848,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VLMC_1 primary motor cortex vascular leptomeningeal cell (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VLMC_1</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_105 -->
@@ -5860,7 +5865,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VLMC_2 primary motor cortex vascular leptomeningeal cell (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VLMC_2</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_106 -->
@@ -5877,7 +5882,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VLMC_3 primary motor cortex vascular leptomeningeal cell (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VLMC_3</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_107 -->
@@ -5894,7 +5899,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VLMC_4 primary motor cortex vascular leptomeningeal cell (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VLMC_4</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_108 -->
@@ -5911,7 +5916,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VLMC_5 primary motor cortex vascular leptomeningeal cell (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VLMC_5</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_109 -->
@@ -5928,7 +5933,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VLMC_6 primary motor cortex vascular leptomeningeal cell (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VLMC_6</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_11 -->
@@ -5943,7 +5948,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sncg Calb1_1 primary motor cortex GABAergic interneuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sncg Calb1_1</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_110 -->
@@ -5960,7 +5965,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VLMC_7 primary motor cortex vascular leptomeningeal cell (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VLMC_7</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_111 -->
@@ -5976,7 +5981,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SMC primary motor cortex vascular associated smooth muscle cell (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SMC</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_112 -->
@@ -5993,7 +5998,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peri primary motor cortex pericyte cell (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peri</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_113 -->
@@ -6010,7 +6015,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Micro primary motor cortex microglial cell (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Micro</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_114 -->
@@ -6019,7 +6024,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000125"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000881"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_115 -->
@@ -6028,7 +6033,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000125"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000881"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_116 -->
@@ -6037,7 +6042,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000125"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000881"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_12 -->
@@ -6052,7 +6057,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sncg Calb1_2 primary motor cortex GABAergic interneuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sncg Calb1_2</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_124 -->
@@ -6068,7 +6073,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CGE/PoA primary motor cortex GABAergic interneuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CGE/PoA</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_125 -->
@@ -6085,7 +6090,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lamp5 primary motor cortex GABAergic interneuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lamp5</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_128 -->
@@ -6101,7 +6106,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lamp5_5 primary motor cortex GABAergic interneuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lamp5_5</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_13 -->
@@ -6116,7 +6121,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sncg Npy2r primary motor cortex GABAergic interneuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sncg Npy2r</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_130 -->
@@ -6133,7 +6138,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neurogliaform cell primary motor cortex GABAergic interneuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neurogliaform cell</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_133 -->
@@ -6150,7 +6155,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sncg primary motor cortex GABAergic interneuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sncg</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_134 -->
@@ -6166,7 +6171,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sncg_2 primary motor cortex GABAergic interneuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sncg_2</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_138 -->
@@ -6183,7 +6188,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vip primary motor cortex GABAergic interneuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vip</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_139 -->
@@ -6200,7 +6205,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L5/6 CCK cell primary motor cortex GABAergic interneuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L5/6 CCK cell</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_14 -->
@@ -6217,7 +6222,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vip Sncg primary motor cortex GABAergic interneuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vip Sncg</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_143 -->
@@ -6234,7 +6239,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L5 VIP cell primary motor cortex GABAergic interneuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L5 VIP cell</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_149 -->
@@ -6251,7 +6256,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vip_4 primary motor cortex GABAergic interneuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vip_4</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_15 -->
@@ -6266,7 +6271,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vip Serpinf1_1 primary motor cortex GABAergic interneuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vip Serpinf1_1</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_150 -->
@@ -6282,7 +6287,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MGE primary motor cortex GABAergic interneuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MGE</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_156 -->
@@ -6298,7 +6303,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sst_1 primary motor cortex GABAergic interneuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sst_1</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_159 -->
@@ -6315,7 +6320,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L5 T Martinotti cell primary motor cortex GABAergic interneuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L5 T Martinotti cell</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_16 -->
@@ -6330,7 +6335,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vip Serpinf1_2 primary motor cortex GABAergic interneuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vip Serpinf1_2</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_161 -->
@@ -6347,7 +6352,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L5 non-Martinotti cell primary motor cortex GABAergic interneuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L5 non-Martinotti cell</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_164 -->
@@ -6364,7 +6369,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L2/3/5 fan Martinotti cell primary motor cortex GABAergic interneuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L2/3/5 fan Martinotti cell</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_165 -->
@@ -6380,7 +6385,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L5/6 non-Martinotti cell primary motor cortex GABAergic interneuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L5/6 non-Martinotti cell</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_17 -->
@@ -6395,7 +6400,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vip Serpinf1_3 primary motor cortex GABAergic interneuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vip Serpinf1_3</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_170 -->
@@ -6411,7 +6416,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L6 Th+ SST/PV cell primary motor cortex GABAergic interneuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L6 Th+ SST/PV cell</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_177 -->
@@ -6427,7 +6432,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Upper FS Basket cell primary motor cortex GABAergic interneuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Upper FS Basket cell</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_178 -->
@@ -6445,7 +6450,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chandelier primary motor cortex GABAergic interneuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chandelier</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_18 -->
@@ -6460,7 +6465,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vip Htr1f primary motor cortex GABAergic interneuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vip Htr1f</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_182 -->
@@ -6476,7 +6481,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IT projecting primary motor cortex glutamatergic neuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IT projecting</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_183 -->
@@ -6493,7 +6498,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L2/3 IT primary motor cortex glutamatergic neuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L2/3 IT</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_188 -->
@@ -6509,7 +6514,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L4 primary motor cortex glutamatergic neuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L4</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_189 -->
@@ -6526,7 +6531,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L5 IT primary motor cortex glutamatergic neuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L5 IT</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_19 -->
@@ -6541,7 +6546,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vip Gpc3 primary motor cortex GABAergic interneuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vip Gpc3</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_190 -->
@@ -6557,7 +6562,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L5 IT_2 primary motor cortex glutamatergic neuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L5 IT_2</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_192 -->
@@ -6574,7 +6579,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L6 IT primary motor cortex glutamatergic neuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L6 IT</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_193 -->
@@ -6590,7 +6595,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L5 ET primary motor cortex glutamatergic neuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L5 ET</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_197 -->
@@ -6608,7 +6613,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L6 CT primary motor cortex glutamatergic neuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L6 CT</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_2 -->
@@ -6626,7 +6631,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lamp5 Egln3_1 primary motor cortex GABAergic interneuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lamp5 Egln3_1</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_20 -->
@@ -6641,7 +6646,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vip C1ql1 primary motor cortex GABAergic interneuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vip C1ql1</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_203 -->
@@ -6658,7 +6663,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L6b primary motor cortex glutamatergic neuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L6b</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_207 -->
@@ -6675,7 +6680,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L5/6 NP primary motor cortex glutamatergic neuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L5/6 NP</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_21 -->
@@ -6691,7 +6696,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vip Mybpc1_2 primary motor cortex GABAergic interneuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vip Mybpc1_2</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_211 -->
@@ -6707,7 +6712,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Astro_1 primary motor cortex astrocyte (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Astro_1</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_22 -->
@@ -6723,7 +6728,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vip Mybpc1_1 primary motor cortex GABAergic interneuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vip Mybpc1_1</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_23 -->
@@ -6739,7 +6744,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vip Chat_1 primary motor cortex GABAergic interneuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vip Chat_1</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_24 -->
@@ -6755,7 +6760,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vip Mybpc1_3 primary motor cortex GABAergic interneuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vip Mybpc1_3</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_25 -->
@@ -6771,7 +6776,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vip Chat_2 primary motor cortex GABAergic interneuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vip Chat_2</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_26 -->
@@ -6786,7 +6791,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vip Igfbp6_1 primary motor cortex GABAergic interneuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vip Igfbp6_1</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_27 -->
@@ -6801,7 +6806,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vip Igfbp6_2 primary motor cortex GABAergic interneuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vip Igfbp6_2</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_28 -->
@@ -6818,7 +6823,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sst Chodl primary motor cortex GABAergic interneuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sst Chodl</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_29 -->
@@ -6834,7 +6839,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sst Penk primary motor cortex GABAergic interneuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sst Penk</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_3 -->
@@ -6851,7 +6856,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lamp5 Egln3_2 primary motor cortex GABAergic interneuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lamp5 Egln3_2</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_30 -->
@@ -6867,7 +6872,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sst Myh8_1 primary motor cortex GABAergic interneuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sst Myh8_1</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_31 -->
@@ -6883,7 +6888,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sst Myh8_2 primary motor cortex GABAergic interneuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sst Myh8_2</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_32 -->
@@ -6899,7 +6904,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sst Myh8_3 primary motor cortex GABAergic interneuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sst Myh8_3</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_33 -->
@@ -6915,7 +6920,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sst Htr1a primary motor cortex GABAergic interneuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sst Htr1a</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_34 -->
@@ -6930,7 +6935,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sst Etv1 primary motor cortex GABAergic interneuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sst Etv1</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_35 -->
@@ -6946,7 +6951,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sst Pvalb Etv1 primary motor cortex GABAergic interneuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sst Pvalb Etv1</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_36 -->
@@ -6961,7 +6966,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sst Crhr2_1 primary motor cortex GABAergic interneuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sst Crhr2_1</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_37 -->
@@ -6977,7 +6982,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sst Crhr2_2 primary motor cortex GABAergic interneuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sst Crhr2_2</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_38 -->
@@ -6994,7 +6999,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sst Hpse primary motor cortex GABAergic interneuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sst Hpse</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_39 -->
@@ -7009,7 +7014,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sst Calb2 primary motor cortex GABAergic interneuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sst Calb2</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_4 -->
@@ -7024,7 +7029,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lamp5 Egln3_3 primary motor cortex GABAergic interneuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lamp5 Egln3_3</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_40 -->
@@ -7039,7 +7044,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sst Pappa primary motor cortex GABAergic interneuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sst Pappa</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_41 -->
@@ -7057,7 +7062,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sst Pvalb Calb2 primary motor cortex GABAergic interneuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sst Pvalb Calb2</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_42 -->
@@ -7074,7 +7079,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sst C1ql3_1 primary motor cortex GABAergic interneuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sst C1ql3_1</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_43 -->
@@ -7090,7 +7095,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sst C1ql3_2 primary motor cortex GABAergic interneuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sst C1ql3_2</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_44 -->
@@ -7106,7 +7111,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sst Tac2 primary motor cortex GABAergic interneuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sst Tac2</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_45 -->
@@ -7122,7 +7127,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sst Th_1 primary motor cortex GABAergic interneuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sst Th_1</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_46 -->
@@ -7138,7 +7143,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sst Th_2 primary motor cortex GABAergic interneuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sst Th_2</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_47 -->
@@ -7155,7 +7160,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sst Th_3 primary motor cortex GABAergic interneuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sst Th_3</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_48 -->
@@ -7172,7 +7177,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pvalb Gabrg1 primary motor cortex GABAergic interneuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pvalb Gabrg1</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_49 -->
@@ -7188,7 +7193,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pvalb Egfem1 primary motor cortex GABAergic interneuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pvalb Egfem1</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_5 -->
@@ -7204,7 +7209,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lamp5 Pdlim5_1 primary motor cortex GABAergic interneuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lamp5 Pdlim5_1</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_50 -->
@@ -7220,7 +7225,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pvalb Gpr149 primary motor cortex GABAergic interneuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pvalb Gpr149</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_51 -->
@@ -7236,7 +7241,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pvalb Kank4 primary motor cortex GABAergic interneuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pvalb Kank4</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_52 -->
@@ -7252,7 +7257,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pvalb Calb1_1 primary motor cortex GABAergic interneuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pvalb Calb1_1</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_53 -->
@@ -7268,7 +7273,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pvalb Calb1_2 primary motor cortex GABAergic interneuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pvalb Calb1_2</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_54 -->
@@ -7284,7 +7289,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pvalb Reln primary motor cortex GABAergic interneuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pvalb Reln</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_55 -->
@@ -7300,7 +7305,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pvalb Il1rapl2 primary motor cortex GABAergic interneuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pvalb Il1rapl2</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_56 -->
@@ -7315,7 +7320,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pvalb Vipr2_1 primary motor cortex GABAergic interneuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pvalb Vipr2_1</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_57 -->
@@ -7330,7 +7335,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pvalb Vipr2_2 primary motor cortex GABAergic interneuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pvalb Vipr2_2</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_58 -->
@@ -7345,7 +7350,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L2/3 IT_1 primary motor cortex glutamatergic neuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L2/3 IT_1</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_59 -->
@@ -7360,7 +7365,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L2/3 IT_2 primary motor cortex glutamatergic neuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L2/3 IT_2</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_6 -->
@@ -7375,7 +7380,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lamp5 Pdlim5_2 primary motor cortex GABAergic interneuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lamp5 Pdlim5_2</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_60 -->
@@ -7390,7 +7395,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L2/3 IT_3 primary motor cortex glutamatergic neuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L2/3 IT_3</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_61 -->
@@ -7406,7 +7411,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L4/5 IT_1 primary motor cortex glutamatergic neuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L4/5 IT_1</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_62 -->
@@ -7423,7 +7428,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L4/5 IT_2 primary motor cortex glutamatergic neuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L4/5 IT_2</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_63 -->
@@ -7436,7 +7441,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L5 IT_1 primary motor cortex glutamatergic neuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L5 IT_1</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_64 -->
@@ -7451,7 +7456,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L5 IT_2 primary motor cortex glutamatergic neuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L5 IT_2</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_65 -->
@@ -7466,7 +7471,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L5 IT_3 primary motor cortex glutamatergic neuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L5 IT_3</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_66 -->
@@ -7481,7 +7486,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L5 IT_4 primary motor cortex glutamatergic neuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L5 IT_4</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_67 -->
@@ -7496,7 +7501,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L6 IT_1 primary motor cortex glutamatergic neuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L6 IT_1</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_68 -->
@@ -7511,7 +7516,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L6 IT_2 primary motor cortex glutamatergic neuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L6 IT_2</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_69 -->
@@ -7528,7 +7533,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L6 IT Car3 primary motor cortex glutamatergic neuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L6 IT Car3</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_7 -->
@@ -7543,7 +7548,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lamp5 Slc35d3 primary motor cortex GABAergic interneuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lamp5 Slc35d3</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_70 -->
@@ -7560,7 +7565,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L5 PT_1 primary motor cortex glutamatergic neuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L5 PT_1</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_71 -->
@@ -7577,7 +7582,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L5 PT_2 primary motor cortex glutamatergic neuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L5 PT_2</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_72 -->
@@ -7594,7 +7599,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L5 PT_3 primary motor cortex glutamatergic neuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L5 PT_3</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_73 -->
@@ -7611,7 +7616,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L5 PT_4 primary motor cortex glutamatergic neuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L5 PT_4</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_74 -->
@@ -7627,7 +7632,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L5/6 NP CT primary motor cortex glutamatergic neuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L5/6 NP CT</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_75 -->
@@ -7642,7 +7647,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L6 CT Gpr139 primary motor cortex glutamatergic neuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L6 CT Gpr139</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_76 -->
@@ -7658,7 +7663,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L6 CT Cpa6 primary motor cortex glutamatergic neuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L6 CT Cpa6</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_77 -->
@@ -7673,7 +7678,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L6 CT Grp primary motor cortex glutamatergic neuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L6 CT Grp</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_78 -->
@@ -7688,7 +7693,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L6 CT Pou3f2 primary motor cortex glutamatergic neuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L6 CT Pou3f2</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_79 -->
@@ -7703,7 +7708,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L6 CT Kit_1 primary motor cortex glutamatergic neuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L6 CT Kit_1</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_8 -->
@@ -7721,7 +7726,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lamp5 Lhx6 primary motor cortex GABAergic interneuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lamp5 Lhx6</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_80 -->
@@ -7736,7 +7741,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L6 CT Kit_2 primary motor cortex glutamatergic neuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L6 CT Kit_2</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_81 -->
@@ -7751,7 +7756,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L6b Col6a1 primary motor cortex glutamatergic neuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L6b Col6a1</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_82 -->
@@ -7766,7 +7771,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L6b Shisa6_1 primary motor cortex glutamatergic neuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L6b Shisa6_1</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_83 -->
@@ -7781,7 +7786,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L6b Shisa6_2 primary motor cortex glutamatergic neuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L6b Shisa6_2</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_84 -->
@@ -7796,7 +7801,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L6b Ror1 primary motor cortex glutamatergic neuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L6b Ror1</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_85 -->
@@ -7811,7 +7816,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L6b Kcnip1 primary motor cortex glutamatergic neuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L6b Kcnip1</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_86 -->
@@ -7826,7 +7831,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L5/6 NP_1 primary motor cortex glutamatergic neuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L5/6 NP_1</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_87 -->
@@ -7841,7 +7846,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L5/6 NP_2 primary motor cortex glutamatergic neuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L5/6 NP_2</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_88 -->
@@ -7856,7 +7861,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L5/6 NP_3 primary motor cortex glutamatergic neuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L5/6 NP_3</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_89 -->
@@ -7871,7 +7876,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meis2 primary motor cortex meis2 expressing cortical GABAergic cell (Mus musculus) (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meis2</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_9 -->
@@ -7887,7 +7892,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sncg Col14a1 primary motor cortex GABAergic interneuron (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sncg Col14a1</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_90 -->
@@ -7902,7 +7907,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meis2_Top2a primary motor cortex meis2 expressing cortical GABAergic cell (Mus musculus) (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meis2_Top2a</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_91 -->
@@ -7919,7 +7924,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OPC Pdgfra primary motor cortex oligodendrocyte precursor cell (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OPC Pdgfra</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_92 -->
@@ -7934,7 +7939,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Astro_Top2a primary motor cortex astrocyte (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Astro_Top2a</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_93 -->
@@ -7949,7 +7954,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Astro Aqp4_Gfap primary motor cortex astrocyte (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Astro Aqp4_Gfap</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_94 -->
@@ -7964,7 +7969,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Astro Aqp4_Slc7a10 primary motor cortex astrocyte (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Astro Aqp4_Slc7a10</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_95 -->
@@ -7981,7 +7986,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oligo Enpp6_1 primary motor cortex oligodendrocyte (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oligo Enpp6_1</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_96 -->
@@ -7998,7 +8003,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oligo Enpp6_2 primary motor cortex oligodendrocyte (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oligo Enpp6_2</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_97 -->
@@ -8015,7 +8020,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oligo Enpp6_3 primary motor cortex oligodendrocyte (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oligo Enpp6_3</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_98 -->
@@ -8032,7 +8037,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oligo Enpp6_4 primary motor cortex oligodendrocyte (Mus musculus)</rdfs:label>
         <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oligo Enpp6_4</skos:prefLabel>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/brain_data_standards/AllenDendClass_CS202002013_99 -->
@@ -8055,4 +8060,3 @@
 
 
 <!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
-
