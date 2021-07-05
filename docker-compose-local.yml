@@ -206,7 +206,21 @@ services:
       - vfb-triplestore
     volumes:
       - vfb_data:/out
+  solr:
+    image: virtualflybrain/vfb-solr
+    ports:
+     - 8993:8983
+    depends_on:
+      - vfb-dumps
+    links:
+      - vfb-dumps
+    volumes:
+      - solr_data:/var/solr
+    command:
+      - solr-precreate
+      - ontology
   #    networks:
   #      - dockernet
 volumes:
   vfb_data:
+  solr_data:
