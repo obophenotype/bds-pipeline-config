@@ -216,9 +216,10 @@ services:
       - vfb-dumps
     volumes:
       - solr_data:/var/solr
-    command:
-      - solr-precreate
-      - ontology
+    entrypoint:
+    - bash
+    - "-c"
+    - "precreate-core ontology; precreate-core bdsdump; exec solr -f"
   #    networks:
   #      - dockernet
 volumes:
