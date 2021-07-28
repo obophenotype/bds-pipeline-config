@@ -172,9 +172,6 @@ neo_node_labelling:
   - classes:
       - RO:0002100 some UBERON:0001384
     label: Primary_motor_cortex
-  - classes:
-      - DC:BibliographicResource
-    label: BiblioResource
 
 curie_map:
   GITHUB: https://github.com/
@@ -203,7 +200,6 @@ curie_map:
   PR: http://purl.obolibrary.org/obo/PR_
   SO: http://purl.obolibrary.org/obo/SO_
   OBI: http://purl.obolibrary.org/obo/OBI_
-  DC: http://purl.org/dc/terms/
 
 filters:
   solr:
