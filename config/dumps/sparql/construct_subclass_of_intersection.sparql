@@ -1,15 +1,14 @@
-prefix bds: <http://www.semanticweb.org/brain_data_standards/AllenDendClass_>
-prefix owl: <http://www.w3.org/2002/07/owl#>
-prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX bds: <http://www.semanticweb.org/brain_data_standards/AllenDendClass_>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
 CONSTRUCT {
-?class rdfs:subClassOf  ?otherClass .
+  ?class rdfs:subClassOf  ?otherClass .
 }
 WHERE {
-?class a owl:Class ;
-       rdfs:subClassOf [ a owl:Class ;
-                             owl:intersectionOf [ rdf:rest*/rdf:first ?otherClass ] ] .
-filter(  strstarts(str(?class),str(bds:)) )
+  ?class a owl:Class ;
+         rdfs:subClassOf [ a owl:Class ;
+                               owl:intersectionOf [ rdf:rest*/rdf:first ?otherClass ] ] .
+  FILTER(  strstarts(str(?class),str(bds:)) )
 }
-group by ?class ?otherClass
