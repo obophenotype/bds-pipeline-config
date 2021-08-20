@@ -5,14 +5,12 @@ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
 CONSTRUCT {
   ?class rdfs:subClassOf  ?otherClass .
-  ?otherClass owl:onProperty ?onProp ;
-      owl:someValuesFrom ?valueFrom .
+  ?otherClass ?p ?o .
 }
 WHERE {
   ?class a owl:Class ;
          rdfs:subClassOf [ a owl:Class ;
                                owl:intersectionOf [ rdf:rest*/rdf:first ?otherClass ] ] .
- ?otherClass owl:onProperty ?onProp ;
-     owl:someValuesFrom ?valueFrom .
+ ?otherClass ?p ?o .
   FILTER(  strstarts(str(?class),str(bds:)) )
 }
