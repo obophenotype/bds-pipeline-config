@@ -174,7 +174,7 @@ neo_node_labelling:
     label: Primary_motor_cortex
 ##Ontology Metadata Wrapper##
   - classes:
-      - AllenDend:Ontology
+      - AllenDendClass:Ontology
     label: Ontology
 
 
