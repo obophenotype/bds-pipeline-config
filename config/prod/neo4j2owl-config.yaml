@@ -172,6 +172,11 @@ neo_node_labelling:
   - classes:
       - RO:0002100 some UBERON:0001384
     label: Primary_motor_cortex
+##Ontology Metadata Wrapper##
+  - classes:
+      - AllenDendClass:Ontology
+    label: Ontology
+
 
 curie_map:
   GITHUB: https://github.com/
