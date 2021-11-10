@@ -16,71 +16,71 @@ represent_values_and_annotations_as_json:
 neo_node_labelling:
   - classes:
       - CL:0011005
-      - BDSHELP:exemplar_of some CL:0011005
+      - RO:0015002 some CL:0011005
     label: GABAergic
   - classes:
       - CL:0000679
-      - BDSHELP:exemplar_of some CL:0000679
+      - RO:0015002 some CL:0000679
     label: Glutamatergic
   - classes:
       - CL:0002453
-      - BDSHELP:exemplar_of some CL:0002453
+      - RO:0015002 some CL:0002453
     label: OPC
   - classes:
       - CL:0000127
-      - BDSHELP:exemplar_of some CL:0000127
+      - RO:0015002 some CL:0000127
     label: Astrocyte
   - classes:
       - CL:0000128
-      - BDSHELP:exemplar_of some CL:0000128
+      - RO:0015002 some CL:0000128
     label: Oligodendrocyte
   - classes:
       - CL:0000115
-      - BDSHELP:exemplar_of some CL:0000115
+      - RO:0015002 some CL:0000115
     label: Endothelial
   - classes:
       - CL:0000359
-      - BDSHELP:exemplar_of some CL:0000359
+      - RO:0015002 some CL:0000359
     label: SMC
   - classes:
       - CL:0000669
-      - BDSHELP:exemplar_of some CL:0000669
+      - RO:0015002 some CL:0000669
     label: Pericyte
   - classes:
       - CL:0000129
-      - BDSHELP:exemplar_of some CL:0000129
+      - RO:0015002 some CL:0000129
     label: Microglial
   - classes:
       - CL:4023051
-      - BDSHELP:exemplar_of some CL:0000129
+      - RO:0015002 some CL:0000129
     label: VLMC
   - classes:
       - CL:4023065
-      - BDSHELP:exemplar_of some CL:4023065
+      - RO:0015002 some CL:4023065
     label: Meis2
   - classes:
       - UBERON:0002616
-      - BDSHELP:exemplar_of some UBERON:0002616
+      - RO:0015002 some UBERON:0002616
     label: Brain_Region
   - classes:
       - SO:0000704
-      - BDSHELP:exemplar_of some SO:0000704
+      - RO:0015002 some SO:0000704
     label: Gene
   - classes:
       - BDSHELP:Cluster
-      - BDSHELP:exemplar_of some BDSHELP:Cluster
+      - RO:0015002 some BDSHELP:Cluster
     label: Cluster
   - classes:
       - OBI:0100026
-      - BDSHELP:exemplar_of some OBI:0100026
+      - RO:0015002 some OBI:0100026
     label: Organism
   - classes:
       - PATO:0010006
-      - BDSHELP:exemplar_of some PATO:0010006
+      - RO:0015002 some PATO:0010006
     label: morphology
   - classes:
       - PATO:0070033
-      - BDSHELP:exemplar_of some PATO:0070033
+      - RO:0015002 some PATO:0070033
     label: projection
 ##Morphological subclasses##
   - classes:
