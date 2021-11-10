@@ -1,1 +1,1 @@
-https://raw.githubusercontent.com/obophenotype/brain_data_standards_ontologies/cross_species/bdscratch-full.owl
+https://raw.githubusercontent.com/obophenotype/brain_data_standards_ontologies/allen_ontology/bdscratch-allen.owl
