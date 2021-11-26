@@ -12,7 +12,7 @@ WHERE {
   ?s <http://n2o.neo/custom/block> ?blocked .
   ?s ?p ?o .
   FILTER(?blocked=true) .
-  FILTER(isIRI(?s)) 
+  FILTER(isIRI(?s))
 }
 
 ### EDIT: this was obsoleted in the end in favour of a cypher solution, see process.sh.
