@@ -67,8 +67,8 @@ neo_node_labelling:
       - RO:0015002 some SO:0000704
     label: Gene
   - classes:
-      - BDSHELP:Cluster
-      - RO:0015002 some BDSHELP:Cluster
+      - PCL:0010001
+      - RO:0015002 some PCL:0010001
     label: Cluster
   - classes:
       - OBI:0100026
@@ -174,7 +174,7 @@ neo_node_labelling:
     label: Primary_motor_cortex
 ##Ontology Metadata Wrapper##
   - classes:
-      - AllenDendClass:Ontology
+      - PCL:Ontology
     label: Ontology
 
 
@@ -191,20 +191,18 @@ curie_map:
   so_rel: http://purl.obolibrary.org/obo/so#
   ro_rel: http://www.obofoundry.org/ro/ro.owl#
   owl: http://www.w3.org/2002/07/owl#
-  BDSHELP: http://www.semanticweb.org/brain_data_standards/helper.owl#
-  AllenDend: http://www.semanticweb.org/brain_data_standards/AllenDend_
   skos: http://www.w3.org/2004/02/skos/core#
   ensembl: http://identifiers.org/ensembl/
   RO: http://purl.obolibrary.org/obo/RO_
   UBERON: http://purl.obolibrary.org/obo/UBERON_
   CL: http://purl.obolibrary.org/obo/CL_
-  AllenDendClass: http://www.semanticweb.org/brain_data_standards/AllenDendClass_
   n2o: http://n2o.neo/custom/
   ILX: http://uri.interlex.org/base/ilx_
   NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
   PR: http://purl.obolibrary.org/obo/PR_
   SO: http://purl.obolibrary.org/obo/SO_
   OBI: http://purl.obolibrary.org/obo/OBI_
+  PCL: http://purl.obolibrary.org/obo/PCL_
 
 filters:
   solr:

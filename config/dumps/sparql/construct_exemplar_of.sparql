@@ -2,12 +2,10 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX obo: <http://purl.obolibrary.org/obo/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-PREFIX helper: <http://www.semanticweb.org/brain_data_standards/helper.owl#>
-PREFIX : <http://purl.obolibrary.org/obo/bdscratch/bdscratch-full.owl#>
-PREFIX skos: <http://www.w3.org/2004/02/skos/core#> 
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 CONSTRUCT {
-	?indv helper:exemplar_of ?class .
+	?indv obo:RO_0015002 ?class .
 }
 WHERE {
   ?class rdfs:subClassOf* obo:CL_0000127.
@@ -15,6 +13,6 @@ WHERE {
   ?eq owl:intersectionOf ?intersect.
   ?intersect rdf:rest ?rest.
   ?rest rdf:first ?first.
-  ?first owl:onProperty helper:has_exemplar.
+  ?first owl:onProperty obo:RO_0015001.
   ?first owl:hasValue ?indv.
 }
