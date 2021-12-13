@@ -67,7 +67,7 @@ services:
     ports:
       - 8181:8080
   vfb-prod:
-    image: matentzn/vfb-prod:latest
+    image: virtualflybrain/vfb-prod:latest
     build:
       context: ../vfb-prod
       dockerfile: Dockerfile
@@ -206,6 +206,8 @@ services:
       - vfb-triplestore
     volumes:
       - vfb_data:/out
+#    networks:
+#      - dockernet
   solr:
     image: virtualflybrain/vfb-solr
     ports:
