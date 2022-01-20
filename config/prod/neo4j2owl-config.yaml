@@ -71,8 +71,8 @@ neo_node_labelling:
       - RO:0015002 some PCL:0010001
     label: Cluster
   - classes:
-      - OBI:0100026
-      - RO:0015002 some OBI:0100026
+      - NCBITaxon:131567
+      - RO:0015002 some NCBITaxon:131567
     label: Organism
   - classes:
       - PATO:0010006
